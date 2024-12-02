@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Garmin\Projects\Farkle\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="10" parent="globals" pc="268435457" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="11" parent="globals" pc="268435480" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="12" parent="globals" pc="268435502" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="13" parent="globals" pc="268435524" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="14" parent="globals" pc="268435546" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="26" parent="globals" pc="268435568" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="28" parent="globals" pc="268435634" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="30" parent="globals" pc="268435726" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="32" parent="globals" pc="268435792" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="4" lineNum="34" parent="globals" pc="268435845" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="645" parent="globals" pc="268435886" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="646" parent="globals" pc="268435898" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="646" parent="globals" pc="268435909" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="647" parent="globals" pc="268435915" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="649" parent="globals" pc="268435923" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="650" parent="globals" pc="268435930" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="651" parent="globals" pc="268435941" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="652" parent="globals" pc="268435960" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="654" parent="globals" pc="268435970" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="655" parent="globals" pc="268435981" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="656" parent="globals" pc="268435998" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="658" parent="globals" pc="268436005" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="660" parent="globals" pc="268436015" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="663" parent="globals" pc="268436032" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="665" parent="globals" pc="268436045" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="666" parent="globals" pc="268436052" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="667" parent="globals" pc="268436076" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="6" lineNum="670" parent="globals" pc="268436099" symbol="addcommas"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="610" parent="globals" pc="268436102" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="611" parent="globals" pc="268436114" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="612" parent="globals" pc="268436136" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="612" parent="globals" pc="268436143" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="613" parent="globals" pc="268436144" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="613" parent="globals" pc="268436166" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="614" parent="globals" pc="268436167" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="617" parent="globals" pc="268436241" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="618" parent="globals" pc="268436259" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="619" parent="globals" pc="268436277" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="620" parent="globals" pc="268436301" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="622" parent="globals" pc="268436365" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="623" parent="globals" pc="268436410" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="625" parent="globals" pc="268436421" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="624" parent="globals" pc="268436421" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="626" parent="globals" pc="268436423" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="627" parent="globals" pc="268436443" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="628" parent="globals" pc="268436463" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="629" parent="globals" pc="268436483" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="630" parent="globals" pc="268436503" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="631" parent="globals" pc="268436523" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="632" parent="globals" pc="268436543" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="633" parent="globals" pc="268436563" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="634" parent="globals" pc="268436583" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="635" parent="globals" pc="268436603" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="636" parent="globals" pc="268436623" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="626" parent="globals" pc="268436626" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="626" parent="globals" pc="268436633" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="630" parent="globals" pc="268436636" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="630" parent="globals" pc="268436643" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="635" parent="globals" pc="268436646" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="635" parent="globals" pc="268436653" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="636" parent="globals" pc="268436656" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="636" parent="globals" pc="268436663" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="638" parent="globals" pc="268436664" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="639" parent="globals" pc="268436685" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="7" lineNum="642" parent="globals" pc="268436709" symbol="showhighscores"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="433" parent="globals" pc="268436726" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="434" parent="globals" pc="268436738" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="435" parent="globals" pc="268436746" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="439" parent="globals" pc="268436766" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="436" parent="globals" pc="268436789" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="437" parent="globals" pc="268436881" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="438" parent="globals" pc="268436894" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="440" parent="globals" pc="268436897" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="441" parent="globals" pc="268436989" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="442" parent="globals" pc="268437002" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="443" parent="globals" pc="268437015" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="444" parent="globals" pc="268437034" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="446" parent="globals" pc="268437038" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="446" parent="globals" pc="268437055" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="447" parent="globals" pc="268437068" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="448" parent="globals" pc="268437090" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="449" parent="globals" pc="268437103" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="450" parent="globals" pc="268437107" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="451" parent="globals" pc="268437125" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="451" parent="globals" pc="268437145" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="452" parent="globals" pc="268437164" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="454" parent="globals" pc="268437181" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="455" parent="globals" pc="268437186" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="457" parent="globals" pc="268437278" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="458" parent="globals" pc="268437278" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="459" parent="globals" pc="268437296" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="460" parent="globals" pc="268437316" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="461" parent="globals" pc="268437332" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="462" parent="globals" pc="268437361" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="469" parent="globals" pc="268437387" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="470" parent="globals" pc="268437405" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="471" parent="globals" pc="268437432" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="472" parent="globals" pc="268437568" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="473" parent="globals" pc="268437581" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="474" parent="globals" pc="268437609" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="475" parent="globals" pc="268437628" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="476" parent="globals" pc="268437641" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="477" parent="globals" pc="268437669" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="483" parent="globals" pc="268437714" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="484" parent="globals" pc="268437788" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="485" parent="globals" pc="268437887" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="486" parent="globals" pc="268437905" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="487" parent="globals" pc="268437925" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="490" parent="globals" pc="268437963" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="491" parent="globals" pc="268438062" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="492" parent="globals" pc="268438080" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="494" parent="globals" pc="268438112" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="496" parent="globals" pc="268438229" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="498" parent="globals" pc="268438306" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="499" parent="globals" pc="268438324" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="500" parent="globals" pc="268438416" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="506" parent="globals" pc="268438442" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="507" parent="globals" pc="268438446" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="508" parent="globals" pc="268438464" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="510" parent="globals" pc="268438498" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="511" parent="globals" pc="268438504" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="512" parent="globals" pc="268438523" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="513" parent="globals" pc="268438540" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="514" parent="globals" pc="268438553" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="515" parent="globals" pc="268438575" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="517" parent="globals" pc="268438600" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="519" parent="globals" pc="268438613" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="520" parent="globals" pc="268438630" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="522" parent="globals" pc="268438646" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="526" parent="globals" pc="268438659" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="527" parent="globals" pc="268438671" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="528" parent="globals" pc="268438688" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="529" parent="globals" pc="268438701" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="8" lineNum="530" parent="globals" pc="268438712" symbol="rolldice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="9" lineNum="673" parent="globals/FarkleHighScoresDelegate" pc="268438727" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="10" lineNum="681" parent="globals/FarkleHighScoresDelegate" pc="268438746" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="10" lineNum="682" parent="globals/FarkleHighScoresDelegate" pc="268438748" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="11" lineNum="674" parent="globals/FarkleHighScoresDelegate" pc="268438770" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="11" lineNum="675" parent="globals/FarkleHighScoresDelegate" pc="268438772" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="13" lineNum="686" parent="globals/DrawableMenuTitle" pc="268438791" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="14" lineNum="687" parent="globals/DrawableMenuTitle" pc="268438810" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="14" lineNum="688" parent="globals/DrawableMenuTitle" pc="268438812" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="691" parent="globals/DrawableMenuTitle" pc="268438837" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="692" parent="globals/DrawableMenuTitle" pc="268438841" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="693" parent="globals/DrawableMenuTitle" pc="268438854" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="694" parent="globals/DrawableMenuTitle" pc="268438867" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="695" parent="globals/DrawableMenuTitle" pc="268438877" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="696" parent="globals/DrawableMenuTitle" pc="268438893" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="697" parent="globals/DrawableMenuTitle" pc="268438903" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="698" parent="globals/DrawableMenuTitle" pc="268438916" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="699" parent="globals/DrawableMenuTitle" pc="268438929" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="700" parent="globals/DrawableMenuTitle" pc="268438939" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="701" parent="globals/DrawableMenuTitle" pc="268438955" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="702" parent="globals/DrawableMenuTitle" pc="268438977" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="703" parent="globals/DrawableMenuTitle" pc="268438989" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="704" parent="globals/DrawableMenuTitle" pc="268439026" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="705" parent="globals/DrawableMenuTitle" pc="268439048" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="706" parent="globals/DrawableMenuTitle" pc="268439079" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="15" lineNum="707" parent="globals/DrawableMenuTitle" pc="268439110" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="16" lineNum="6" parent="globals/FarkleMenuDelegate" pc="268439142" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="17" lineNum="49" parent="globals/FarkleMenuDelegate" pc="268439161" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="17" lineNum="50" parent="globals/FarkleMenuDelegate" pc="268439163" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="18" lineNum="8" parent="globals/FarkleMenuDelegate" pc="268439185" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="18" lineNum="9" parent="globals/FarkleMenuDelegate" pc="268439187" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="12" parent="globals/FarkleMenuDelegate" pc="268439206" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="13" parent="globals/FarkleMenuDelegate" pc="268439208" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="14" parent="globals/FarkleMenuDelegate" pc="268439219" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="19" parent="globals/FarkleMenuDelegate" pc="268439239" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="25" parent="globals/FarkleMenuDelegate" pc="268439259" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="31" parent="globals/FarkleMenuDelegate" pc="268439279" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="37" parent="globals/FarkleMenuDelegate" pc="268439299" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="43" parent="globals/FarkleMenuDelegate" pc="268439319" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="15" parent="globals/FarkleMenuDelegate" pc="268439342" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="16" parent="globals/FarkleMenuDelegate" pc="268439382" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="17" parent="globals/FarkleMenuDelegate" pc="268439411" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="18" parent="globals/FarkleMenuDelegate" pc="268439440" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="20" parent="globals/FarkleMenuDelegate" pc="268439443" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="21" parent="globals/FarkleMenuDelegate" pc="268439483" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="22" parent="globals/FarkleMenuDelegate" pc="268439512" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="23" parent="globals/FarkleMenuDelegate" pc="268439552" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="24" parent="globals/FarkleMenuDelegate" pc="268439577" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="26" parent="globals/FarkleMenuDelegate" pc="268439580" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="27" parent="globals/FarkleMenuDelegate" pc="268439620" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="28" parent="globals/FarkleMenuDelegate" pc="268439649" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="29" parent="globals/FarkleMenuDelegate" pc="268439689" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="30" parent="globals/FarkleMenuDelegate" pc="268439714" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="32" parent="globals/FarkleMenuDelegate" pc="268439717" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="33" parent="globals/FarkleMenuDelegate" pc="268439757" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="34" parent="globals/FarkleMenuDelegate" pc="268439786" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="35" parent="globals/FarkleMenuDelegate" pc="268439826" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="36" parent="globals/FarkleMenuDelegate" pc="268439851" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="38" parent="globals/FarkleMenuDelegate" pc="268439854" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="39" parent="globals/FarkleMenuDelegate" pc="268439894" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="40" parent="globals/FarkleMenuDelegate" pc="268439923" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="41" parent="globals/FarkleMenuDelegate" pc="268439963" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="42" parent="globals/FarkleMenuDelegate" pc="268439988" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="44" parent="globals/FarkleMenuDelegate" pc="268439991" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleMenuDelegate.mc" id="19" lineNum="45" parent="globals/FarkleMenuDelegate" pc="268440008" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="20" lineNum="781" parent="globals/CustomIcon" pc="268440013" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="21" lineNum="784" parent="globals/CustomIcon" pc="268440032" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="21" lineNum="785" parent="globals/CustomIcon" pc="268440034" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="21" lineNum="786" parent="globals/CustomIcon" pc="268440044" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="22" lineNum="789" parent="globals/CustomIcon" pc="268440069" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="22" lineNum="790" parent="globals/CustomIcon" pc="268440071" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="22" lineNum="791" parent="globals/CustomIcon" pc="268440093" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="23" lineNum="760" parent="globals/FarkleSettings" pc="268440106" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="761" parent="globals/FarkleSettings" pc="268440125" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="762" parent="globals/FarkleSettings" pc="268440129" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="763" parent="globals/FarkleSettings" pc="268440148" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="765" parent="globals/FarkleSettings" pc="268440171" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="766" parent="globals/FarkleSettings" pc="268440207" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="767" parent="globals/FarkleSettings" pc="268440243" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="768" parent="globals/FarkleSettings" pc="268440279" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="769" parent="globals/FarkleSettings" pc="268440315" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="770" parent="globals/FarkleSettings" pc="268440351" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="772" parent="globals/FarkleSettings" pc="268440384" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="773" parent="globals/FarkleSettings" pc="268440458" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="774" parent="globals/FarkleSettings" pc="268440543" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="775" parent="globals/FarkleSettings" pc="268440628" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="776" parent="globals/FarkleSettings" pc="268440713" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="24" lineNum="777" parent="globals/FarkleSettings" pc="268440798" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="565" parent="globals" pc="268440861" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="566" parent="globals" pc="268440873" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="567" parent="globals" pc="268440880" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="568" parent="globals" pc="268440887" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="569" parent="globals" pc="268440917" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="570" parent="globals" pc="268440939" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="571" parent="globals" pc="268440946" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="576" parent="globals" pc="268440982" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="577" parent="globals" pc="268441000" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="578" parent="globals" pc="268441018" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="579" parent="globals" pc="268441031" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="580" parent="globals" pc="268441035" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="581" parent="globals" pc="268441046" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="582" parent="globals" pc="268441061" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="583" parent="globals" pc="268441078" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="584" parent="globals" pc="268441086" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="585" parent="globals" pc="268441109" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="587" parent="globals" pc="268441132" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="588" parent="globals" pc="268441150" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="589" parent="globals" pc="268441166" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="591" parent="globals" pc="268441195" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="592" parent="globals" pc="268441224" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="593" parent="globals" pc="268441237" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="594" parent="globals" pc="268441241" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="595" parent="globals" pc="268441245" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="599" parent="globals" pc="268441261" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="600" parent="globals" pc="268441278" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="601" parent="globals" pc="268441314" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="602" parent="globals" pc="268441334" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="604" parent="globals" pc="268441341" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="605" parent="globals" pc="268441360" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="606" parent="globals" pc="268441379" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="25" lineNum="607" parent="globals" pc="268441402" symbol="savehistory"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleApp.mc" id="26" lineNum="5" parent="globals/FarkleApp" pc="268441405" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleApp.mc" id="28" lineNum="20" parent="globals/FarkleApp" pc="268441424" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleApp.mc" id="28" lineNum="21" parent="globals/FarkleApp" pc="268441426" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleApp.mc" id="29" lineNum="7" parent="globals/FarkleApp" pc="268441501" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleApp.mc" id="29" lineNum="8" parent="globals/FarkleApp" pc="268441503" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleApp.mc" id="31" lineNum="26" parent="globals" pc="268441522" symbol="getApp"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleApp.mc" id="31" lineNum="27" parent="globals" pc="268441532" symbol="getApp"/>
+<entry filename="c:\\Garmin\\Projects\\Farkle\\gen\\006-B4260-00\\source\\Rez.mcgen" id="32" lineNum="7" parent="globals/Rez" pc="268441548" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="33" lineNum="549" parent="globals" pc="268441572" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="33" lineNum="550" parent="globals" pc="268441582" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="33" lineNum="562" parent="globals" pc="268441753" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="34" lineNum="52" parent="globals/FarkleView" pc="268441783" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="283" parent="globals/FarkleView" pc="268441802" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="284" parent="globals/FarkleView" pc="268441806" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="285" parent="globals/FarkleView" pc="268441834" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="286" parent="globals/FarkleView" pc="268441862" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="287" parent="globals/FarkleView" pc="268441896" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="288" parent="globals/FarkleView" pc="268441930" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="289" parent="globals/FarkleView" pc="268441941" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="290" parent="globals/FarkleView" pc="268441952" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="291" parent="globals/FarkleView" pc="268441983" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="293" parent="globals/FarkleView" pc="268442035" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="294" parent="globals/FarkleView" pc="268442060" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="295" parent="globals/FarkleView" pc="268442094" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="296" parent="globals/FarkleView" pc="268442105" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="297" parent="globals/FarkleView" pc="268442133" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="299" parent="globals/FarkleView" pc="268442209" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="300" parent="globals/FarkleView" pc="268442237" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="302" parent="globals/FarkleView" pc="268442298" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="303" parent="globals/FarkleView" pc="268442309" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="304" parent="globals/FarkleView" pc="268442340" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="305" parent="globals/FarkleView" pc="268442392" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="307" parent="globals/FarkleView" pc="268442468" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="308" parent="globals/FarkleView" pc="268442493" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="36" lineNum="309" parent="globals/FarkleView" pc="268442527" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="58" parent="globals/FarkleView" pc="268442586" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="59" parent="globals/FarkleView" pc="268442588" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="60" parent="globals/FarkleView" pc="268442616" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="60" parent="globals/FarkleView" pc="268442629" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="62" parent="globals/FarkleView" pc="268442641" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="63" parent="globals/FarkleView" pc="268442669" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="63" parent="globals/FarkleView" pc="268442682" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="63" parent="globals/FarkleView" pc="268442695" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="64" parent="globals/FarkleView" pc="268442724" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="65" parent="globals/FarkleView" pc="268442752" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="65" parent="globals/FarkleView" pc="268442765" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="65" parent="globals/FarkleView" pc="268442778" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="66" parent="globals/FarkleView" pc="268442807" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="67" parent="globals/FarkleView" pc="268442832" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="68" parent="globals/FarkleView" pc="268442860" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="68" parent="globals/FarkleView" pc="268442873" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="68" parent="globals/FarkleView" pc="268442886" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="69" parent="globals/FarkleView" pc="268442915" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="70" parent="globals/FarkleView" pc="268442940" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="71" parent="globals/FarkleView" pc="268442968" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="71" parent="globals/FarkleView" pc="268442981" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="71" parent="globals/FarkleView" pc="268442994" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="72" parent="globals/FarkleView" pc="268443023" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="73" parent="globals/FarkleView" pc="268443048" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="74" parent="globals/FarkleView" pc="268443076" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="74" parent="globals/FarkleView" pc="268443089" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="74" parent="globals/FarkleView" pc="268443102" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="75" parent="globals/FarkleView" pc="268443131" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="88" parent="globals/FarkleView" pc="268443156" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="90" parent="globals/FarkleView" pc="268443187" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="91" parent="globals/FarkleView" pc="268443245" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="93" parent="globals/FarkleView" pc="268443318" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="94" parent="globals/FarkleView" pc="268443367" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="95" parent="globals/FarkleView" pc="268443389" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="96" parent="globals/FarkleView" pc="268443411" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="98" parent="globals/FarkleView" pc="268443463" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="99" parent="globals/FarkleView" pc="268443512" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="100" parent="globals/FarkleView" pc="268443534" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="101" parent="globals/FarkleView" pc="268443556" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="104" parent="globals/FarkleView" pc="268443608" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="105" parent="globals/FarkleView" pc="268443630" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="106" parent="globals/FarkleView" pc="268443676" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="107" parent="globals/FarkleView" pc="268443707" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="108" parent="globals/FarkleView" pc="268443723" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="109" parent="globals/FarkleView" pc="268443754" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="110" parent="globals/FarkleView" pc="268443785" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="111" parent="globals/FarkleView" pc="268443807" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="112" parent="globals/FarkleView" pc="268443829" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="113" parent="globals/FarkleView" pc="268443851" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="114" parent="globals/FarkleView" pc="268443879" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="115" parent="globals/FarkleView" pc="268443916" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="124" parent="globals/FarkleView" pc="268444275" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="125" parent="globals/FarkleView" pc="268444363" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="127" parent="globals/FarkleView" pc="268444466" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="128" parent="globals/FarkleView" pc="268444488" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="129" parent="globals/FarkleView" pc="268444546" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="134" parent="globals/FarkleView" pc="268444779" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="135" parent="globals/FarkleView" pc="268444837" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="136" parent="globals/FarkleView" pc="268444925" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="137" parent="globals/FarkleView" pc="268444983" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="139" parent="globals/FarkleView" pc="268445056" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="140" parent="globals/FarkleView" pc="268445078" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="37" lineNum="141" parent="globals/FarkleView" pc="268445136" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="313" parent="globals/FarkleView" pc="268445204" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="314" parent="globals/FarkleView" pc="268445208" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="315" parent="globals/FarkleView" pc="268445238" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="316" parent="globals/FarkleView" pc="268445268" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="317" parent="globals/FarkleView" pc="268445298" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="318" parent="globals/FarkleView" pc="268445309" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="319" parent="globals/FarkleView" pc="268445320" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="320" parent="globals/FarkleView" pc="268445351" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="322" parent="globals/FarkleView" pc="268445451" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="323" parent="globals/FarkleView" pc="268445479" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="325" parent="globals/FarkleView" pc="268445564" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="326" parent="globals/FarkleView" pc="268445575" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="327" parent="globals/FarkleView" pc="268445606" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="329" parent="globals/FarkleView" pc="268445706" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="330" parent="globals/FarkleView" pc="268445734" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="332" parent="globals/FarkleView" pc="268445816" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="333" parent="globals/FarkleView" pc="268445823" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="334" parent="globals/FarkleView" pc="268445830" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="335" parent="globals/FarkleView" pc="268445870" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="336" parent="globals/FarkleView" pc="268445910" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="337" parent="globals/FarkleView" pc="268445928" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="338" parent="globals/FarkleView" pc="268445944" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="339" parent="globals/FarkleView" pc="268445955" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="343" parent="globals/FarkleView" pc="268445975" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="347" parent="globals/FarkleView" pc="268445995" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="340" parent="globals/FarkleView" pc="268446018" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="341" parent="globals/FarkleView" pc="268446055" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="342" parent="globals/FarkleView" pc="268446092" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="344" parent="globals/FarkleView" pc="268446095" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="345" parent="globals/FarkleView" pc="268446132" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="346" parent="globals/FarkleView" pc="268446178" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="348" parent="globals/FarkleView" pc="268446181" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="349" parent="globals/FarkleView" pc="268446218" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="350" parent="globals/FarkleView" pc="268446264" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="351" parent="globals/FarkleView" pc="268446280" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="353" parent="globals/FarkleView" pc="268446284" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="353" parent="globals/FarkleView" pc="268446301" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="354" parent="globals/FarkleView" pc="268446317" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="355" parent="globals/FarkleView" pc="268446328" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="356" parent="globals/FarkleView" pc="268446339" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="357" parent="globals/FarkleView" pc="268446370" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="359" parent="globals/FarkleView" pc="268446422" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="360" parent="globals/FarkleView" pc="268446453" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="362" parent="globals/FarkleView" pc="268446490" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="363" parent="globals/FarkleView" pc="268446501" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="364" parent="globals/FarkleView" pc="268446532" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="366" parent="globals/FarkleView" pc="268446584" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="367" parent="globals/FarkleView" pc="268446615" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="369" parent="globals/FarkleView" pc="268446649" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="370" parent="globals/FarkleView" pc="268446683" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="371" parent="globals/FarkleView" pc="268446714" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="373" parent="globals/FarkleView" pc="268446748" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="374" parent="globals/FarkleView" pc="268446767" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="375" parent="globals/FarkleView" pc="268446786" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="376" parent="globals/FarkleView" pc="268446811" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="377" parent="globals/FarkleView" pc="268446822" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="380" parent="globals/FarkleView" pc="268446842" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="384" parent="globals/FarkleView" pc="268446862" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="389" parent="globals/FarkleView" pc="268446882" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="395" parent="globals/FarkleView" pc="268446902" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="402" parent="globals/FarkleView" pc="268446922" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="378" parent="globals/FarkleView" pc="268446945" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="379" parent="globals/FarkleView" pc="268446973" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="381" parent="globals/FarkleView" pc="268446976" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="382" parent="globals/FarkleView" pc="268447022" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="383" parent="globals/FarkleView" pc="268447068" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="385" parent="globals/FarkleView" pc="268447071" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="386" parent="globals/FarkleView" pc="268447117" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="387" parent="globals/FarkleView" pc="268447145" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="388" parent="globals/FarkleView" pc="268447191" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="390" parent="globals/FarkleView" pc="268447194" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="391" parent="globals/FarkleView" pc="268447240" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="392" parent="globals/FarkleView" pc="268447286" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="393" parent="globals/FarkleView" pc="268447332" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="394" parent="globals/FarkleView" pc="268447378" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="396" parent="globals/FarkleView" pc="268447381" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="397" parent="globals/FarkleView" pc="268447427" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="398" parent="globals/FarkleView" pc="268447473" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="399" parent="globals/FarkleView" pc="268447501" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="400" parent="globals/FarkleView" pc="268447547" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="401" parent="globals/FarkleView" pc="268447593" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="403" parent="globals/FarkleView" pc="268447596" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="404" parent="globals/FarkleView" pc="268447642" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="405" parent="globals/FarkleView" pc="268447688" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="406" parent="globals/FarkleView" pc="268447725" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="407" parent="globals/FarkleView" pc="268447762" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="408" parent="globals/FarkleView" pc="268447808" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="38" lineNum="409" parent="globals/FarkleView" pc="268447854" symbol="drawdice"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="151" parent="globals/FarkleView" pc="268447872" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="152" parent="globals/FarkleView" pc="268447876" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="153" parent="globals/FarkleView" pc="268447886" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="154" parent="globals/FarkleView" pc="268447914" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="155" parent="globals/FarkleView" pc="268447932" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="157" parent="globals/FarkleView" pc="268447955" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="158" parent="globals/FarkleView" pc="268447963" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="162" parent="globals/FarkleView" pc="268447983" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="166" parent="globals/FarkleView" pc="268448003" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="170" parent="globals/FarkleView" pc="268448023" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="159" parent="globals/FarkleView" pc="268448046" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="160" parent="globals/FarkleView" pc="268448056" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="161" parent="globals/FarkleView" pc="268448066" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="163" parent="globals/FarkleView" pc="268448069" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="164" parent="globals/FarkleView" pc="268448079" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="165" parent="globals/FarkleView" pc="268448089" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="167" parent="globals/FarkleView" pc="268448092" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="168" parent="globals/FarkleView" pc="268448102" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="169" parent="globals/FarkleView" pc="268448112" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="171" parent="globals/FarkleView" pc="268448115" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="172" parent="globals/FarkleView" pc="268448125" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="173" parent="globals/FarkleView" pc="268448135" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="176" parent="globals/FarkleView" pc="268448139" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="177" parent="globals/FarkleView" pc="268448169" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="178" parent="globals/FarkleView" pc="268448199" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="179" parent="globals/FarkleView" pc="268448229" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="180" parent="globals/FarkleView" pc="268448259" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="181" parent="globals/FarkleView" pc="268448289" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="183" parent="globals/FarkleView" pc="268448319" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="184" parent="globals/FarkleView" pc="268448336" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="186" parent="globals/FarkleView" pc="268448388" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="190" parent="globals/FarkleView" pc="268448446" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="192" parent="globals/FarkleView" pc="268448515" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="193" parent="globals/FarkleView" pc="268448540" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="194" parent="globals/FarkleView" pc="268448548" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="201" parent="globals/FarkleView" pc="268448568" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="217" parent="globals/FarkleView" pc="268448588" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="195" parent="globals/FarkleView" pc="268448611" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="196" parent="globals/FarkleView" pc="268448628" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="198" parent="globals/FarkleView" pc="268448680" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="200" parent="globals/FarkleView" pc="268448784" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="202" parent="globals/FarkleView" pc="268448787" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="203" parent="globals/FarkleView" pc="268448795" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="206" parent="globals/FarkleView" pc="268448815" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="209" parent="globals/FarkleView" pc="268448835" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="212" parent="globals/FarkleView" pc="268448855" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="204" parent="globals/FarkleView" pc="268448878" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="205" parent="globals/FarkleView" pc="268448950" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="207" parent="globals/FarkleView" pc="268448953" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="208" parent="globals/FarkleView" pc="268448999" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="210" parent="globals/FarkleView" pc="268449002" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="211" parent="globals/FarkleView" pc="268449048" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="213" parent="globals/FarkleView" pc="268449051" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="214" parent="globals/FarkleView" pc="268449117" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="216" parent="globals/FarkleView" pc="268449121" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="218" parent="globals/FarkleView" pc="268449124" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="219" parent="globals/FarkleView" pc="268449170" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="222" parent="globals/FarkleView" pc="268449174" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="224" parent="globals/FarkleView" pc="268449186" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="225" parent="globals/FarkleView" pc="268449190" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="226" parent="globals/FarkleView" pc="268449208" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="226" parent="globals/FarkleView" pc="268449228" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="226" parent="globals/FarkleView" pc="268449232" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="228" parent="globals/FarkleView" pc="268449248" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="228" parent="globals/FarkleView" pc="268449313" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="229" parent="globals/FarkleView" pc="268449332" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="230" parent="globals/FarkleView" pc="268449348" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="232" parent="globals/FarkleView" pc="268449389" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="233" parent="globals/FarkleView" pc="268449397" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="238" parent="globals/FarkleView" pc="268449417" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="243" parent="globals/FarkleView" pc="268449437" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="248" parent="globals/FarkleView" pc="268449457" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="234" parent="globals/FarkleView" pc="268449480" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="235" parent="globals/FarkleView" pc="268449535" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="236" parent="globals/FarkleView" pc="268449590" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="237" parent="globals/FarkleView" pc="268449645" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="239" parent="globals/FarkleView" pc="268449648" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="240" parent="globals/FarkleView" pc="268449703" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="241" parent="globals/FarkleView" pc="268449758" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="242" parent="globals/FarkleView" pc="268449813" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="244" parent="globals/FarkleView" pc="268449816" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="245" parent="globals/FarkleView" pc="268449871" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="246" parent="globals/FarkleView" pc="268449926" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="247" parent="globals/FarkleView" pc="268449981" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="249" parent="globals/FarkleView" pc="268449984" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="250" parent="globals/FarkleView" pc="268450039" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="251" parent="globals/FarkleView" pc="268450094" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="252" parent="globals/FarkleView" pc="268450149" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="255" parent="globals/FarkleView" pc="268450153" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="255" parent="globals/FarkleView" pc="268450294" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="256" parent="globals/FarkleView" pc="268450313" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="257" parent="globals/FarkleView" pc="268450329" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="41" lineNum="259" parent="globals/FarkleView" pc="268450370" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="269" parent="globals/FarkleView" pc="268450412" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="270" parent="globals/FarkleView" pc="268450416" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="271" parent="globals/FarkleView" pc="268450444" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="272" parent="globals/FarkleView" pc="268450472" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="273" parent="globals/FarkleView" pc="268450506" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="274" parent="globals/FarkleView" pc="268450540" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="274" parent="globals/FarkleView" pc="268450554" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="275" parent="globals/FarkleView" pc="268450561" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="276" parent="globals/FarkleView" pc="268450572" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="277" parent="globals/FarkleView" pc="268450603" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="279" parent="globals/FarkleView" pc="268450673" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="42" lineNum="280" parent="globals/FarkleView" pc="268450698" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="535" parent="globals" pc="268450751" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="536" parent="globals" pc="268450761" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="537" parent="globals" pc="268450774" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="538" parent="globals" pc="268450787" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="539" parent="globals" pc="268450879" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="540" parent="globals" pc="268450971" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="541" parent="globals" pc="268451045" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="542" parent="globals" pc="268451058" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="543" parent="globals" pc="268451071" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="544" parent="globals" pc="268451084" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="545" parent="globals" pc="268451097" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="43" lineNum="546" parent="globals" pc="268451109" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="44" lineNum="711" parent="globals/CustomItem" pc="268451122" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="45" lineNum="728" parent="globals/CustomItem" pc="268451141" symbol="getDate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="45" lineNum="729" parent="globals/CustomItem" pc="268451143" symbol="getDate"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="46" lineNum="718" parent="globals/CustomItem" pc="268451152" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="46" lineNum="719" parent="globals/CustomItem" pc="268451156" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="46" lineNum="720" parent="globals/CustomItem" pc="268451182" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="46" lineNum="721" parent="globals/CustomItem" pc="268451232" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="46" lineNum="722" parent="globals/CustomItem" pc="268451242" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="46" lineNum="723" parent="globals/CustomItem" pc="268451307" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="46" lineNum="724" parent="globals/CustomItem" pc="268451400" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="46" lineNum="725" parent="globals/CustomItem" pc="268451410" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="736" parent="globals/CustomItem" pc="268451421" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="737" parent="globals/CustomItem" pc="268451425" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="738" parent="globals/CustomItem" pc="268451438" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="739" parent="globals/CustomItem" pc="268451451" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="740" parent="globals/CustomItem" pc="268451461" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="741" parent="globals/CustomItem" pc="268451477" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="742" parent="globals/CustomItem" pc="268451487" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="743" parent="globals/CustomItem" pc="268451500" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="744" parent="globals/CustomItem" pc="268451513" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="745" parent="globals/CustomItem" pc="268451529" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="745" parent="globals/CustomItem" pc="268451548" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="746" parent="globals/CustomItem" pc="268451561" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="747" parent="globals/CustomItem" pc="268451571" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="748" parent="globals/CustomItem" pc="268451582" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="749" parent="globals/CustomItem" pc="268451604" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="751" parent="globals/CustomItem" pc="268451632" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="752" parent="globals/CustomItem" pc="268451654" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="753" parent="globals/CustomItem" pc="268451688" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="754" parent="globals/CustomItem" pc="268451710" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="755" parent="globals/CustomItem" pc="268451750" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="47" lineNum="756" parent="globals/CustomItem" pc="268451772" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="48" lineNum="732" parent="globals/CustomItem" pc="268451824" symbol="getScore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="48" lineNum="733" parent="globals/CustomItem" pc="268451826" symbol="getScore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="415" parent="globals" pc="268451835" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="416" parent="globals" pc="268451845" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="417" parent="globals" pc="268451856" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="418" parent="globals" pc="268451867" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="419" parent="globals" pc="268451895" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="421" parent="globals" pc="268451946" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="422" parent="globals" pc="268451977" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="425" parent="globals" pc="268452025" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="426" parent="globals" pc="268452036" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="428" parent="globals" pc="268452067" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleView.mc" id="49" lineNum="430" parent="globals" pc="268452095" symbol="drawpip"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="50" lineNum="4" parent="globals/FarkleDelegate" pc="268452126" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="100" parent="globals/FarkleDelegate" pc="268452145" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="101" parent="globals/FarkleDelegate" pc="268452149" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="102" parent="globals/FarkleDelegate" pc="268452162" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="103" parent="globals/FarkleDelegate" pc="268452261" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="104" parent="globals/FarkleDelegate" pc="268452279" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="105" parent="globals/FarkleDelegate" pc="268452299" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="108" parent="globals/FarkleDelegate" pc="268452337" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="109" parent="globals/FarkleDelegate" pc="268452436" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="110" parent="globals/FarkleDelegate" pc="268452454" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="112" parent="globals/FarkleDelegate" pc="268452486" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="114" parent="globals/FarkleDelegate" pc="268452503" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="115" parent="globals/FarkleDelegate" pc="268452516" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="116" parent="globals/FarkleDelegate" pc="268452520" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="118" parent="globals/FarkleDelegate" pc="268452537" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="119" parent="globals/FarkleDelegate" pc="268452550" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="120" parent="globals/FarkleDelegate" pc="268452554" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="122" parent="globals/FarkleDelegate" pc="268452571" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="123" parent="globals/FarkleDelegate" pc="268452589" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="124" parent="globals/FarkleDelegate" pc="268452603" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="124" parent="globals/FarkleDelegate" pc="268452614" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="125" parent="globals/FarkleDelegate" pc="268452633" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="128" parent="globals/FarkleDelegate" pc="268452665" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="130" parent="globals/FarkleDelegate" pc="268452682" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="131" parent="globals/FarkleDelegate" pc="268452695" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="132" parent="globals/FarkleDelegate" pc="268452699" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="134" parent="globals/FarkleDelegate" pc="268452736" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="135" parent="globals/FarkleDelegate" pc="268452749" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="136" parent="globals/FarkleDelegate" pc="268452753" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="138" parent="globals/FarkleDelegate" pc="268452770" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="139" parent="globals/FarkleDelegate" pc="268452786" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="141" parent="globals/FarkleDelegate" pc="268452803" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="142" parent="globals/FarkleDelegate" pc="268452819" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="144" parent="globals/FarkleDelegate" pc="268452836" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="147" parent="globals/FarkleDelegate" pc="268452849" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="148" parent="globals/FarkleDelegate" pc="268452866" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="151" parent="globals/FarkleDelegate" pc="268452897" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="51" lineNum="152" parent="globals/FarkleDelegate" pc="268452914" symbol="calcscore"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="52" lineNum="10" parent="globals/FarkleDelegate" pc="268452946" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="52" lineNum="11" parent="globals/FarkleDelegate" pc="268452948" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="52" lineNum="12" parent="globals/FarkleDelegate" pc="268453021" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="74" parent="globals/FarkleDelegate" pc="268453024" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="75" parent="globals/FarkleDelegate" pc="268453028" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="76" parent="globals/FarkleDelegate" pc="268453127" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="77" parent="globals/FarkleDelegate" pc="268453145" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="78" parent="globals/FarkleDelegate" pc="268453165" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="81" parent="globals/FarkleDelegate" pc="268453203" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="82" parent="globals/FarkleDelegate" pc="268453302" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="83" parent="globals/FarkleDelegate" pc="268453320" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="85" parent="globals/FarkleDelegate" pc="268453352" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="86" parent="globals/FarkleDelegate" pc="268453469" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="87" parent="globals/FarkleDelegate" pc="268453494" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="88" parent="globals/FarkleDelegate" pc="268453607" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="89" parent="globals/FarkleDelegate" pc="268453650" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="91" parent="globals/FarkleDelegate" pc="268453681" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="92" parent="globals/FarkleDelegate" pc="268453699" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="53" lineNum="93" parent="globals/FarkleDelegate" pc="268453748" symbol="flipheld"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="54" lineNum="6" parent="globals/FarkleDelegate" pc="268453790" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="54" lineNum="7" parent="globals/FarkleDelegate" pc="268453792" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="15" parent="globals/FarkleDelegate" pc="268453811" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="16" parent="globals/FarkleDelegate" pc="268453815" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="17" parent="globals/FarkleDelegate" pc="268453828" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="18" parent="globals/FarkleDelegate" pc="268453858" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="19" parent="globals/FarkleDelegate" pc="268453888" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="20" parent="globals/FarkleDelegate" pc="268453918" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="21" parent="globals/FarkleDelegate" pc="268453948" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="23" parent="globals/FarkleDelegate" pc="268453978" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="24" parent="globals/FarkleDelegate" pc="268454010" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="25" parent="globals/FarkleDelegate" pc="268454022" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="26" parent="globals/FarkleDelegate" pc="268454038" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="28" parent="globals/FarkleDelegate" pc="268454041" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="29" parent="globals/FarkleDelegate" pc="268454058" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="30" parent="globals/FarkleDelegate" pc="268454076" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="30" parent="globals/FarkleDelegate" pc="268454096" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="31" parent="globals/FarkleDelegate" pc="268454181" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="32" parent="globals/FarkleDelegate" pc="268454245" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="33" parent="globals/FarkleDelegate" pc="268454294" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="34" parent="globals/FarkleDelegate" pc="268454308" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="35" parent="globals/FarkleDelegate" pc="268454320" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="36" parent="globals/FarkleDelegate" pc="268454332" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="37" parent="globals/FarkleDelegate" pc="268454348" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="41" parent="globals/FarkleDelegate" pc="268454364" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="42" parent="globals/FarkleDelegate" pc="268454368" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="43" parent="globals/FarkleDelegate" pc="268454386" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="43" parent="globals/FarkleDelegate" pc="268454406" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="43" parent="globals/FarkleDelegate" pc="268454410" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="45" parent="globals/FarkleDelegate" pc="268454426" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="46" parent="globals/FarkleDelegate" pc="268454526" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="47" parent="globals/FarkleDelegate" pc="268454538" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="48" parent="globals/FarkleDelegate" pc="268454554" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="50" parent="globals/FarkleDelegate" pc="268454557" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="51" parent="globals/FarkleDelegate" pc="268454713" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="52" parent="globals/FarkleDelegate" pc="268454726" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="53" parent="globals/FarkleDelegate" pc="268454748" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="54" parent="globals/FarkleDelegate" pc="268454770" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="55" parent="globals/FarkleDelegate" pc="268454783" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="56" parent="globals/FarkleDelegate" pc="268454800" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="58" parent="globals/FarkleDelegate" pc="268454816" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="60" parent="globals/FarkleDelegate" pc="268454829" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="61" parent="globals/FarkleDelegate" pc="268454841" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="62" parent="globals/FarkleDelegate" pc="268454858" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="63" parent="globals/FarkleDelegate" pc="268454871" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="64" parent="globals/FarkleDelegate" pc="268454882" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="67" parent="globals/FarkleDelegate" pc="268454896" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="68" parent="globals/FarkleDelegate" pc="268454912" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="55" lineNum="70" parent="globals/FarkleDelegate" pc="268454915" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="160" parent="globals/FarkleDelegate" pc="268454918" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="161" parent="globals/FarkleDelegate" pc="268454920" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="161" parent="globals/FarkleDelegate" pc="268454940" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="162" parent="globals/FarkleDelegate" pc="268454943" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="162" parent="globals/FarkleDelegate" pc="268454972" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="163" parent="globals/FarkleDelegate" pc="268454975" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="163" parent="globals/FarkleDelegate" pc="268454995" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="164" parent="globals/FarkleDelegate" pc="268454998" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="164" parent="globals/FarkleDelegate" pc="268455027" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Farkle\\source\\FarkleDelegate.mc" id="56" lineNum="165" parent="globals/FarkleDelegate" pc="268455030" symbol="inbox"/>
+<entry filename="c:\\Garmin\\Projects\\Farkle\\gen\\006-B4260-00\\source\\Rez.mcgen" id="57" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268455033" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Garmin\\Projects\\Farkle\\gen\\006-B4260-00\\source\\Rez.mcgen" id="58" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268455052" symbol="initialize"/>
+<entry filename="c:\\Garmin\\Projects\\Farkle\\gen\\006-B4260-00\\source\\Rez.mcgen" id="58" lineNum="24" parent="globals/Rez/Menus/MainMenu" pc="268455054" symbol="initialize"/>
+<entry filename="c:\\Garmin\\Projects\\Farkle\\gen\\006-B4260-00\\source\\Rez.mcgen" id="58" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268455072" symbol="initialize"/>
+<entry filename="c:\\Garmin\\Projects\\Farkle\\gen\\006-B4260-00\\source\\Rez.mcgen" id="58" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268455128" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="59" symbol="newcolor"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="86" symbol="shadowcolor"/>
+<entry field="true" id="58" symbol="newXY"/>
+<entry field="true" id="57" symbol="newWH"/>
+<entry field="true" id="108" symbol="&lt;globals/CustomItem/&lt;&gt;_id&gt;"/>
+<entry field="true" id="38" symbol="farkcost"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="106" symbol="&lt;globals/CustomItem/&lt;&gt;_date2&gt;"/>
+<entry id="111" method="true" symbol="getScore"/>
+<entry field="true" id="98" symbol="tscore"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry id="36" method="true" symbol="drawpip"/>
+<entry field="true" id="32" symbol="dieR"/>
+<entry field="true" id="29" symbol="dice"/>
+<entry id="9" object="true" symbol="CustomIcon"/>
+<entry field="true" id="39" symbol="farkles"/>
+<entry id="21" method="true" symbol="addcommas"/>
+<entry field="true" id="70" symbol="rollcolor"/>
+<entry id="87" method="true" symbol="showhighscores"/>
+<entry id="8390424" module="true" symbol="Storage"/>
+<entry field="true" id="78" symbol="score"/>
+<entry field="true" id="8391941" symbol="theme"/>
+<entry field="true" id="83" symbol="scoresXY"/>
+<entry field="true" id="82" symbol="scoresWH"/>
+<entry field="true" id="43" symbol="fcntcolor"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="102" method="true" symbol="drawbutton"/>
+<entry id="114" method="true" symbol="inbox"/>
+<entry field="true" id="117" symbol="AppName"/>
+<entry field="true" id="74" symbol="roundcolor"/>
+<entry field="true" id="69" symbol="rollXY"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="48" symbol="held"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="94" symbol="tmp"/>
+<entry field="true" id="68" symbol="rollWH"/>
+<entry id="17" object="true" symbol="FarkleSettings"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="120" symbol="prompt"/>
+<entry field="true" id="31" symbol="diceXY"/>
+<entry field="true" id="30" symbol="diceWH"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="65" symbol="onesval"/>
+<entry id="76" method="true" symbol="savegame"/>
+<entry field="true" id="45" symbol="gap"/>
+<entry field="true" id="8389719" method="true" symbol="round"/>
+<entry field="true" id="107" symbol="&lt;globals/CustomItem/&lt;&gt;_flag&gt;"/>
+<entry field="true" id="26" symbol="center"/>
+<entry field="true" id="55" symbol="mins"/>
+<entry id="13" object="true" symbol="FarkleApp"/>
+<entry field="true" id="8388721" symbol="min"/>
+<entry field="true" id="89" symbol="so"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8390727" object="true" symbol="CustomMenu"/>
+<entry field="true" id="51" symbol="min1"/>
+<entry id="122" symbol="item_2"/>
+<entry id="121" symbol="item_1"/>
+<entry id="101" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry field="true" id="24" symbol="bankcolor"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="110" method="true" symbol="getDate"/>
+<entry field="true" id="90" symbol="soh"/>
+<entry field="true" id="81" symbol="scorecolor"/>
+<entry id="18" object="true" symbol="FarkleView"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="93" symbol="tiny"/>
+<entry field="true" id="105" symbol="&lt;globals/CustomItem/&lt;&gt;_date&gt;"/>
+<entry field="true" id="92" symbol="themes"/>
+<entry field="true" id="49" symbol="ho"/>
+<entry id="8389098" method="true" symbol="onTap"/>
+<entry field="true" id="91" symbol="solid"/>
+<entry id="77" method="true" symbol="savehistory"/>
+<entry id="10" object="true" symbol="CustomItem"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="60" method="true" symbol="newgame"/>
+<entry id="14" object="true" symbol="FarkleDelegate"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="46" symbol="good"/>
+<entry id="116" object="true" symbol="MainMenu"/>
+<entry field="true" id="20" symbol="SW"/>
+<entry field="true" id="19" symbol="SH"/>
+<entry field="true" id="53" symbol="min1s"/>
+<entry field="true" id="37" symbol="fark"/>
+<entry field="true" id="109" symbol="&lt;globals/CustomItem/&lt;&gt;_score&gt;"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="104" method="true" symbol="drawlabel"/>
+<entry field="true" id="99" symbol="&lt;globals/CustomIcon/&lt;&gt;_index&gt;"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="11" symbol="DS"/>
+<entry field="true" id="84" symbol="scorescolor"/>
+<entry field="true" id="85" symbol="shadow"/>
+<entry field="true" id="23" symbol="bankXY"/>
+<entry field="true" id="22" symbol="bankWH"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="35" symbol="diecolor"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="67" symbol="right"/>
+<entry field="true" id="52" symbol="min1bank"/>
+<entry field="true" id="115" symbol="LauncherIcon"/>
+<entry id="103" method="true" symbol="drawdice"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="64" symbol="oness"/>
+<entry id="15" object="true" symbol="FarkleHighScoresDelegate"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="71" method="true" symbol="rolldice"/>
+<entry field="true" id="44" symbol="game"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8391940" method="true" symbol="showToast"/>
+<entry field="true" id="28" symbol="centerY"/>
+<entry field="true" id="27" symbol="centerX"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="112" method="true" symbol="calcscore"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="42" symbol="fcntXY"/>
+<entry field="true" id="41" symbol="fcntWH"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="61" symbol="nopecolor"/>
+<entry field="true" id="40" symbol="farks"/>
+<entry field="true" id="80" symbol="scoreXY"/>
+<entry field="true" id="79" symbol="scoreWH"/>
+<entry field="true" id="34" symbol="dieXY"/>
+<entry field="true" id="97" symbol="tmp4"/>
+<entry field="true" id="96" symbol="tmp3"/>
+<entry field="true" id="95" symbol="tmp2"/>
+<entry field="true" id="33" symbol="dieWH"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="66" symbol="pipR"/>
+<entry id="12" object="true" symbol="DrawableMenuTitle"/>
+<entry id="113" method="true" symbol="flipheld"/>
+<entry field="true" id="47" symbol="goodcolor"/>
+<entry field="true" id="88" symbol="small"/>
+<entry id="100" module="true" symbol="Layouts"/>
+<entry field="true" id="8389487" symbol="state"/>
+<entry field="true" id="62" symbol="oldcolor"/>
+<entry field="true" id="50" symbol="left"/>
+<entry field="true" id="73" symbol="roundXY"/>
+<entry field="true" id="72" symbol="roundWH"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="16" object="true" symbol="FarkleMenuDelegate"/>
+<entry field="true" id="56" symbol="mydc"/>
+<entry field="true" id="63" symbol="ones"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="25" symbol="buttonR"/>
+<entry field="true" id="75" symbol="rscore"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8389642" symbol="title"/>
+<entry field="true" id="54" symbol="minbank"/>
+<entry field="true" id="119" symbol="menu_label_2"/>
+<entry field="true" id="118" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268436101" name="whole" stackId="1" startPc="268435886"/>
+<entry endPc="268436101" name="digits" stackId="2" startPc="268435898"/>
+<entry endPc="268436101" name="count" stackId="3" startPc="268435898"/>
+<entry endPc="268436028" name="digit" stackId="4" startPc="268435941"/>
+<entry endPc="268436098" name="i" stackId="5" startPc="268436076"/>
+<entry arg="true" endPc="268436725" name="pos" stackId="1" startPc="268436102"/>
+<entry endPc="268436724" name="hist" stackId="2" startPc="268436114"/>
+<entry endPc="268436724" name="menu" stackId="3" startPc="268436114"/>
+<entry endPc="268436724" name="momentA" stackId="4" startPc="268436114"/>
+<entry endPc="268436724" name="scoreA" stackId="5" startPc="268436114"/>
+<entry endPc="268436364" name="i" stackId="6" startPc="268436301"/>
+<entry endPc="268436708" name="toast" stackId="7" startPc="268436421"/>
+<entry endPc="268438725" name="allheld" stackId="1" startPc="268436738"/>
+<entry endPc="268437180" name="i" stackId="2" startPc="268437125"/>
+<entry endPc="268438725" name="tmp" stackId="3" startPc="268436738"/>
+<entry endPc="268437386" name="i" stackId="4" startPc="268437296"/>
+<entry endPc="268437713" name="i" stackId="5" startPc="268437405"/>
+<entry endPc="268437700" name="j" stackId="6" startPc="268437432"/>
+<entry endPc="268438725" name="counts" stackId="7" startPc="268436738"/>
+<entry endPc="268437962" name="i" stackId="8" startPc="268437905"/>
+<entry endPc="268438725" name="freq" stackId="9" startPc="268436738"/>
+<entry endPc="268438111" name="i" stackId="10" startPc="268438080"/>
+<entry endPc="268438441" name="i" stackId="11" startPc="268438324"/>
+<entry endPc="268438725" name="anygood" stackId="12" startPc="268436738"/>
+<entry endPc="268438497" name="i" stackId="13" startPc="268438464"/>
+<entry endPc="268438725" name="pos" stackId="14" startPc="268438688"/>
+<entry arg="true" endPc="268439141" name="dc" stackId="1" startPc="268438837"/>
+<entry endPc="268439140" name="w" stackId="2" startPc="268438841"/>
+<entry endPc="268439140" name="h" stackId="3" startPc="268438841"/>
+<entry endPc="268439140" name="bx" stackId="4" startPc="268438841"/>
+<entry endPc="268439140" name="bw" stackId="5" startPc="268438841"/>
+<entry endPc="268439140" name="nx" stackId="6" startPc="268438841"/>
+<entry endPc="268439140" name="dx" stackId="7" startPc="268438841"/>
+<entry endPc="268439140" name="sx" stackId="8" startPc="268438841"/>
+<entry endPc="268439140" name="ty" stackId="9" startPc="268438841"/>
+<entry endPc="268439140" name="hy" stackId="10" startPc="268438841"/>
+<entry arg="true" endPc="268440012" name="item" stackId="1" startPc="268439206"/>
+<entry arg="true" endPc="268440068" name="index" stackId="1" startPc="268440032"/>
+<entry arg="true" endPc="268440105" name="dc" stackId="1" startPc="268440069"/>
+<entry endPc="268440859" name="themeicon" stackId="1" startPc="268440129"/>
+<entry endPc="268440859" name="min1icon" stackId="2" startPc="268440129"/>
+<entry endPc="268440859" name="minicon" stackId="3" startPc="268440129"/>
+<entry endPc="268440859" name="onesicon" stackId="4" startPc="268440129"/>
+<entry endPc="268440859" name="farkicon" stackId="5" startPc="268440129"/>
+<entry endPc="268440859" name="scoresicon" stackId="6" startPc="268440129"/>
+<entry endPc="268441404" name="ret" stackId="1" startPc="268440873"/>
+<entry endPc="268441404" name="max" stackId="2" startPc="268440873"/>
+<entry endPc="268441404" name="hist" stackId="3" startPc="268440873"/>
+<entry endPc="268441404" name="momentA" stackId="4" startPc="268440873"/>
+<entry endPc="268441404" name="scoreA" stackId="5" startPc="268440873"/>
+<entry endPc="268441404" name="size" stackId="6" startPc="268440873"/>
+<entry endPc="268441404" name="inserted" stackId="7" startPc="268440873"/>
+<entry endPc="268441260" name="i" stackId="8" startPc="268441061"/>
+<entry endPc="268441194" name="j" stackId="9" startPc="268441150"/>
+<entry arg="true" endPc="268442585" name="xy" stackId="1" startPc="268441802"/>
+<entry arg="true" endPc="268442585" name="wh" stackId="2" startPc="268441802"/>
+<entry arg="true" endPc="268442585" name="col" stackId="3" startPc="268441802"/>
+<entry arg="true" endPc="268442585" name="txt" stackId="4" startPc="268441802"/>
+<entry endPc="268442584" name="x" stackId="5" startPc="268441806"/>
+<entry endPc="268442584" name="y" stackId="6" startPc="268441806"/>
+<entry endPc="268442584" name="w" stackId="7" startPc="268441806"/>
+<entry endPc="268442584" name="h" stackId="8" startPc="268441806"/>
+<entry arg="true" endPc="268445203" name="dc" stackId="1" startPc="268442586"/>
+<entry endPc="268447870" name="x" stackId="1" startPc="268445208"/>
+<entry endPc="268447870" name="y" stackId="2" startPc="268445208"/>
+<entry endPc="268447870" name="w" stackId="3" startPc="268445208"/>
+<entry endPc="268447870" name="h" stackId="4" startPc="268445208"/>
+<entry endPc="268447870" name="i" stackId="5" startPc="268445928"/>
+<entry arg="true" endPc="268450411" name="dc" stackId="1" startPc="268447872"/>
+<entry endPc="268450410" name="anyheld" stackId="2" startPc="268447876"/>
+<entry endPc="268449247" name="i" stackId="3" startPc="268449208"/>
+<entry arg="true" endPc="268450750" name="xy" stackId="1" startPc="268450412"/>
+<entry arg="true" endPc="268450750" name="wh" stackId="2" startPc="268450412"/>
+<entry arg="true" endPc="268450750" name="col" stackId="3" startPc="268450412"/>
+<entry arg="true" endPc="268450750" name="txt" stackId="4" startPc="268450412"/>
+<entry arg="true" endPc="268450750" name="pos" stackId="5" startPc="268450412"/>
+<entry endPc="268450749" name="x" stackId="6" startPc="268450416"/>
+<entry endPc="268450749" name="y" stackId="7" startPc="268450416"/>
+<entry endPc="268450749" name="w" stackId="8" startPc="268450416"/>
+<entry endPc="268450749" name="h" stackId="9" startPc="268450416"/>
+<entry arg="true" endPc="268451420" name="id" stackId="1" startPc="268451152"/>
+<entry arg="true" endPc="268451420" name="moment" stackId="2" startPc="268451152"/>
+<entry arg="true" endPc="268451420" name="score" stackId="3" startPc="268451152"/>
+<entry arg="true" endPc="268451420" name="flag" stackId="4" startPc="268451152"/>
+<entry endPc="268451419" name="info" stackId="5" startPc="268451156"/>
+<entry arg="true" endPc="268451823" name="dc" stackId="1" startPc="268451421"/>
+<entry endPc="268451822" name="w" stackId="2" startPc="268451425"/>
+<entry endPc="268451822" name="h" stackId="3" startPc="268451425"/>
+<entry endPc="268451822" name="bx" stackId="4" startPc="268451425"/>
+<entry endPc="268451822" name="bw" stackId="5" startPc="268451425"/>
+<entry endPc="268451822" name="nx" stackId="6" startPc="268451425"/>
+<entry endPc="268451822" name="dx" stackId="7" startPc="268451425"/>
+<entry endPc="268451822" name="sx" stackId="8" startPc="268451425"/>
+<entry endPc="268451822" name="id" stackId="9" startPc="268451425"/>
+<entry arg="true" endPc="268452125" name="x" stackId="1" startPc="268451835"/>
+<entry arg="true" endPc="268452125" name="y" stackId="2" startPc="268451835"/>
+<entry endPc="268452944" name="counts" stackId="1" startPc="268452149"/>
+<entry endPc="268452336" name="i" stackId="2" startPc="268452279"/>
+<entry endPc="268452944" name="freq" stackId="3" startPc="268452149"/>
+<entry endPc="268452485" name="i" stackId="4" startPc="268452454"/>
+<entry endPc="268452661" name="i" stackId="5" startPc="268452589"/>
+<entry arg="true" endPc="268453789" name="d" stackId="1" startPc="268453024"/>
+<entry endPc="268453788" name="counts" stackId="2" startPc="268453028"/>
+<entry endPc="268453202" name="i" stackId="3" startPc="268453145"/>
+<entry endPc="268453788" name="freq" stackId="4" startPc="268453028"/>
+<entry endPc="268453351" name="i" stackId="5" startPc="268453320"/>
+<entry endPc="268453788" name="i" stackId="6" startPc="268453699"/>
+<entry arg="true" endPc="268454917" name="clickEvent" stackId="1" startPc="268453811"/>
+<entry endPc="268454917" name="xy" stackId="2" startPc="268453815"/>
+<entry endPc="268454363" name="i" stackId="3" startPc="268454076"/>
+<entry endPc="268454917" name="anyheld" stackId="4" startPc="268453815"/>
+<entry endPc="268454425" name="i" stackId="5" startPc="268454386"/>
+<entry endPc="268454895" name="pos" stackId="6" startPc="268454858"/>
+<entry arg="true" endPc="268455032" name="boxxy" stackId="1" startPc="268454918"/>
+<entry arg="true" endPc="268455032" name="boxwh" stackId="2" startPc="268454918"/>
+<entry arg="true" endPc="268455032" name="point" stackId="3" startPc="268454918"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/FarkleHighScoresDelegate" offset="969" parentId="globals" symbolId="FarkleHighScoresDelegate" type="class"/>
+<dataEntry label="globals/DrawableMenuTitle" offset="1032" parentId="globals" symbolId="DrawableMenuTitle" type="class"/>
+<dataEntry label="globals/FarkleMenuDelegate" offset="1087" parentId="globals" symbolId="FarkleMenuDelegate" type="class"/>
+<dataEntry label="globals/CustomIcon" offset="1150" parentId="globals" symbolId="CustomIcon" type="class"/>
+<dataEntry label="globals/FarkleSettings" offset="1213" parentId="globals" symbolId="FarkleSettings" type="class"/>
+<dataEntry label="globals/FarkleApp" offset="1260" parentId="globals" symbolId="FarkleApp" type="class"/>
+<dataEntry label="globals/Rez" offset="1331" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/FarkleView" offset="1410" parentId="globals" symbolId="FarkleView" type="class"/>
+<dataEntry label="globals/CustomItem" offset="1513" parentId="globals" symbolId="CustomItem" type="class"/>
+<dataEntry label="globals/FarkleDelegate" offset="1624" parentId="globals" symbolId="FarkleDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1711" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1750" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1781" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1820" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1851" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1914" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="1945" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268436101" name="addcommas" startPc="268435886">
+<param id="whole"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436725" name="showhighscores" startPc="268436102">
+<param id="pos"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438726" name="rolldice" startPc="268436726">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438745" name="&lt;init&gt;" parent="FarkleHighScoresDelegate" startPc="268438727">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438769" name="onBack" parent="FarkleHighScoresDelegate" startPc="268438746">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438790" name="initialize" parent="FarkleHighScoresDelegate" startPc="268438770">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="FarkleHighScoresDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438809" name="&lt;init&gt;" parent="DrawableMenuTitle" startPc="268438791">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438836" name="initialize" parent="DrawableMenuTitle" startPc="268438810">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439141" name="draw" parent="DrawableMenuTitle" startPc="268438837">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439160" name="&lt;init&gt;" parent="FarkleMenuDelegate" startPc="268439142">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439184" name="onBack" parent="FarkleMenuDelegate" startPc="268439161">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439205" name="initialize" parent="FarkleMenuDelegate" startPc="268439185">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440012" name="onSelect" parent="FarkleMenuDelegate" startPc="268439206">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440031" name="&lt;init&gt;" parent="CustomIcon" startPc="268440013">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440068" name="initialize" parent="CustomIcon" startPc="268440032">
+<param id="index"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440105" name="draw" parent="CustomIcon" startPc="268440069">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440124" name="&lt;init&gt;" parent="FarkleSettings" startPc="268440106">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440860" name="initialize" parent="FarkleSettings" startPc="268440125">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441404" name="savehistory" startPc="268440861">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441423" name="&lt;init&gt;" parent="FarkleApp" startPc="268441405">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="FarkleApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441500" name="getInitialView" parent="FarkleApp" startPc="268441424">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441521" name="initialize" parent="FarkleApp" startPc="268441501">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="FarkleApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441547" name="getApp" startPc="268441522">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441571" name="&lt;init&gt;" parent="Rez" startPc="268441548">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441782" name="savegame" startPc="268441572">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441801" name="&lt;init&gt;" parent="FarkleView" startPc="268441783">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="FarkleView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442585" name="drawbutton" parent="FarkleView" startPc="268441802">
+<param id="xy"/>
+<param id="wh"/>
+<param id="col"/>
+<param id="txt"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268445203" name="onLayout" parent="FarkleView" startPc="268442586">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268447871" name="drawdice" parent="FarkleView" startPc="268445204">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="FarkleView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="FarkleView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268450411" name="onUpdate" parent="FarkleView" startPc="268447872">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268450750" name="drawlabel" parent="FarkleView" startPc="268450412">
+<param id="xy"/>
+<param id="wh"/>
+<param id="col"/>
+<param id="txt"/>
+<param id="pos"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268451121" name="newgame" startPc="268450751">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268451140" name="&lt;init&gt;" parent="CustomItem" startPc="268451122">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268451151" name="getDate" parent="CustomItem" startPc="268451141">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268451420" name="initialize" parent="CustomItem" startPc="268451152">
+<param id="id"/>
+<param id="moment"/>
+<param id="score"/>
+<param id="flag"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268451823" name="draw" parent="CustomItem" startPc="268451421">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268451834" name="getScore" parent="CustomItem" startPc="268451824">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268452125" name="drawpip" startPc="268451835">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268452144" name="&lt;init&gt;" parent="FarkleDelegate" startPc="268452126">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268452945" name="calcscore" parent="FarkleDelegate" startPc="268452145">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268453023" name="onMenu" parent="FarkleDelegate" startPc="268452946">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268453789" name="flipheld" parent="FarkleDelegate" startPc="268453024">
+<param id="d"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268453810" name="initialize" parent="FarkleDelegate" startPc="268453790">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268454917" name="onTap" parent="FarkleDelegate" startPc="268453811">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268455032" name="inbox" parent="FarkleDelegate" startPc="268454918">
+<param id="boxxy"/>
+<param id="boxwh"/>
+<param id="point"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268455051" name="&lt;init&gt;" parent="MainMenu" startPc="268455033">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268455184" name="initialize" parent="MainMenu" startPc="268455052">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

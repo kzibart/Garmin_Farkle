@@ -1,0 +1,259 @@
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 4; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 6; ]
+class FarkleMenuDelegate extends WatchUi.MenuInputDelegate{
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_8_26_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 9 8 ]
+        %tmp.2 = getv ? :MenuInputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_8_26_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 12; ]
+    public
+    function onSelect(item as MenuItem) {
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_12_47_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 13 8 ]
+        %tmp.1 = lgetv %item;
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        push %tmp.3;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_switchStmtBegin:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 14 12 ]
+        %tmp.4 = dup %tmp.3;
+        %tmp.5 = "theme";
+        %tmp.6 = getv function %tmp.4 :equals;
+        %tmp.7 = invoke %tmp.4 %tmp.6 (%tmp.5);
+        bt %tmp.7 @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_14_12_switchCase;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 19 12 ]
+        %tmp.8 = dup %tmp.3;
+        %tmp.9 = "min1";
+        %tmp.10 = getv function %tmp.8 :equals;
+        %tmp.11 = invoke %tmp.8 %tmp.10 (%tmp.9);
+        bt %tmp.11 @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_19_12_switchCase;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 25 12 ]
+        %tmp.12 = dup %tmp.3;
+        %tmp.13 = "min";
+        %tmp.14 = getv function %tmp.12 :equals;
+        %tmp.15 = invoke %tmp.12 %tmp.14 (%tmp.13);
+        bt %tmp.15 @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_25_12_switchCase;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 31 12 ]
+        %tmp.16 = dup %tmp.3;
+        %tmp.17 = "ones";
+        %tmp.18 = getv function %tmp.16 :equals;
+        %tmp.19 = invoke %tmp.16 %tmp.18 (%tmp.17);
+        bt %tmp.19 @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_31_12_switchCase;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 37 12 ]
+        %tmp.20 = dup %tmp.3;
+        %tmp.21 = "fark";
+        %tmp.22 = getv function %tmp.20 :equals;
+        %tmp.23 = invoke %tmp.20 %tmp.22 (%tmp.21);
+        bt %tmp.23 @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_37_12_switchCase;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 43 12 ]
+        %tmp.24 = dup %tmp.3;
+        %tmp.25 = "scores";
+        %tmp.26 = getv function %tmp.24 :equals;
+        %tmp.27 = invoke %tmp.24 %tmp.26 (%tmp.25);
+        bt %tmp.27 @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_43_12_switchCase;
+        goto @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_defaultCodeBegin;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_14_12_switchCase:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 15 16 ]
+        %tmp.29 = getv ? :theme;
+        %tmp.30 = 1;
+        %tmp.31 = add %tmp.29 %tmp.30;
+        %tmp.33 = getv ? :themes;
+        %tmp.34 = getv function %tmp.33 :size;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        %tmp.36 = mod %tmp.31 %tmp.35;
+        putv self :theme %tmp.36;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 16 16 ]
+        %tmp.37 = getm $.Toybox.Application.Storage;
+        %tmp.38 = getv function %tmp.37 :setValue;
+        %tmp.39 = "theme";
+        %tmp.41 = getv ? :theme;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.41);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 17 16 ]
+        %tmp.42 = lgetv %item;
+        %tmp.43 = getv function %tmp.42 :setSubLabel;
+        %tmp.45 = getv ? :themes;
+        %tmp.47 = getv ? :theme;
+        %tmp.48 = agetv %tmp.45 %tmp.47;
+        invoke %tmp.42 %tmp.43(%tmp.48);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 18 16 ]
+        goto @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_19_12_switchCase:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 20 16 ]
+        %tmp.50 = getv ? :min1;
+        %tmp.51 = 1;
+        %tmp.52 = add %tmp.50 %tmp.51;
+        %tmp.54 = getv ? :min1s;
+        %tmp.55 = getv function %tmp.54 :size;
+        %tmp.56 = invoke %tmp.54 %tmp.55();
+        %tmp.57 = mod %tmp.52 %tmp.56;
+        putv self :min1 %tmp.57;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 21 16 ]
+        %tmp.58 = getm $.Toybox.Application.Storage;
+        %tmp.59 = getv function %tmp.58 :setValue;
+        %tmp.60 = "min1";
+        %tmp.62 = getv ? :min1;
+        invoke %tmp.58 %tmp.59(%tmp.60, %tmp.62);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 22 16 ]
+        %tmp.63 = lgetv %item;
+        %tmp.64 = getv function %tmp.63 :setSubLabel;
+        %tmp.65 = self;
+        %tmp.66 = getv function %tmp.65 :addcommas;
+        %tmp.68 = getv ? :min1s;
+        %tmp.70 = getv ? :min1;
+        %tmp.71 = agetv %tmp.68 %tmp.70;
+        %tmp.72 = invoke %tmp.65 %tmp.66(%tmp.71);
+        invoke %tmp.63 %tmp.64(%tmp.72);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 23 16 ]
+        %tmp.74 = getv ? :min1s;
+        %tmp.76 = getv ? :min1;
+        %tmp.77 = agetv %tmp.74 %tmp.76;
+        putv self :min1bank %tmp.77;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 24 16 ]
+        goto @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_25_12_switchCase:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 26 16 ]
+        %tmp.79 = getv ? :min;
+        %tmp.80 = 1;
+        %tmp.81 = add %tmp.79 %tmp.80;
+        %tmp.83 = getv ? :mins;
+        %tmp.84 = getv function %tmp.83 :size;
+        %tmp.85 = invoke %tmp.83 %tmp.84();
+        %tmp.86 = mod %tmp.81 %tmp.85;
+        putv self :min %tmp.86;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 27 16 ]
+        %tmp.87 = getm $.Toybox.Application.Storage;
+        %tmp.88 = getv function %tmp.87 :setValue;
+        %tmp.89 = "min";
+        %tmp.91 = getv ? :min;
+        invoke %tmp.87 %tmp.88(%tmp.89, %tmp.91);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 28 16 ]
+        %tmp.92 = lgetv %item;
+        %tmp.93 = getv function %tmp.92 :setSubLabel;
+        %tmp.94 = self;
+        %tmp.95 = getv function %tmp.94 :addcommas;
+        %tmp.97 = getv ? :mins;
+        %tmp.99 = getv ? :min;
+        %tmp.100 = agetv %tmp.97 %tmp.99;
+        %tmp.101 = invoke %tmp.94 %tmp.95(%tmp.100);
+        invoke %tmp.92 %tmp.93(%tmp.101);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 29 16 ]
+        %tmp.103 = getv ? :mins;
+        %tmp.105 = getv ? :min;
+        %tmp.106 = agetv %tmp.103 %tmp.105;
+        putv self :minbank %tmp.106;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 30 16 ]
+        goto @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_31_12_switchCase:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 32 16 ]
+        %tmp.108 = getv ? :ones;
+        %tmp.109 = 1;
+        %tmp.110 = add %tmp.108 %tmp.109;
+        %tmp.112 = getv ? :oness;
+        %tmp.113 = getv function %tmp.112 :size;
+        %tmp.114 = invoke %tmp.112 %tmp.113();
+        %tmp.115 = mod %tmp.110 %tmp.114;
+        putv self :ones %tmp.115;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 33 16 ]
+        %tmp.116 = getm $.Toybox.Application.Storage;
+        %tmp.117 = getv function %tmp.116 :setValue;
+        %tmp.118 = "ones";
+        %tmp.120 = getv ? :ones;
+        invoke %tmp.116 %tmp.117(%tmp.118, %tmp.120);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 34 16 ]
+        %tmp.121 = lgetv %item;
+        %tmp.122 = getv function %tmp.121 :setSubLabel;
+        %tmp.123 = self;
+        %tmp.124 = getv function %tmp.123 :addcommas;
+        %tmp.126 = getv ? :oness;
+        %tmp.128 = getv ? :ones;
+        %tmp.129 = agetv %tmp.126 %tmp.128;
+        %tmp.130 = invoke %tmp.123 %tmp.124(%tmp.129);
+        invoke %tmp.121 %tmp.122(%tmp.130);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 35 16 ]
+        %tmp.132 = getv ? :oness;
+        %tmp.134 = getv ? :ones;
+        %tmp.135 = agetv %tmp.132 %tmp.134;
+        putv self :onesval %tmp.135;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 36 16 ]
+        goto @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_37_12_switchCase:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 38 16 ]
+        %tmp.137 = getv ? :fark;
+        %tmp.138 = 1;
+        %tmp.139 = add %tmp.137 %tmp.138;
+        %tmp.141 = getv ? :farks;
+        %tmp.142 = getv function %tmp.141 :size;
+        %tmp.143 = invoke %tmp.141 %tmp.142();
+        %tmp.144 = mod %tmp.139 %tmp.143;
+        putv self :fark %tmp.144;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 39 16 ]
+        %tmp.145 = getm $.Toybox.Application.Storage;
+        %tmp.146 = getv function %tmp.145 :setValue;
+        %tmp.147 = "fark";
+        %tmp.149 = getv ? :fark;
+        invoke %tmp.145 %tmp.146(%tmp.147, %tmp.149);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 40 16 ]
+        %tmp.150 = lgetv %item;
+        %tmp.151 = getv function %tmp.150 :setSubLabel;
+        %tmp.152 = self;
+        %tmp.153 = getv function %tmp.152 :addcommas;
+        %tmp.155 = getv ? :farks;
+        %tmp.157 = getv ? :fark;
+        %tmp.158 = agetv %tmp.155 %tmp.157;
+        %tmp.159 = invoke %tmp.152 %tmp.153(%tmp.158);
+        invoke %tmp.150 %tmp.151(%tmp.159);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 41 16 ]
+        %tmp.161 = getv ? :farks;
+        %tmp.163 = getv ? :fark;
+        %tmp.164 = agetv %tmp.161 %tmp.163;
+        putv self :farkcost %tmp.164;
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 42 16 ]
+        goto @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_43_12_switchCase:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 44 16 ]
+        %tmp.165 = self;
+        %tmp.166 = getv function %tmp.165 :showhighscores;
+        %tmp.167 = -1;
+        invoke %tmp.165 %tmp.166(%tmp.167);
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 45 16 ]
+        goto @C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_switchStmtEnd;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_defaultCodeBegin:
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_13_8_switchStmtEnd:
+        pop;
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_12_47_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 49; ]
+    public
+    function onBack() {
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_49_29_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc" 50 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+C_Garmin_Projects_Farkle_source_FarkleMenuDelegate_mc_49_29_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,1337 @@
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 4; ]
+class FarkleDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 6; ]
+    function initialize() as Void {
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_6_26_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 7 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_6_26_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 10; ]
+    function onMenu() as Boolean {
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_10_33_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 11 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :pushView;
+        %tmp.6 = getv ? :FarkleSettings;
+        %tmp.3 = newc %tmp.6 ();
+        %tmp.10 = getv ? :FarkleMenuDelegate;
+        %tmp.7 = newc %tmp.10 ();
+        %tmp.11 = getm $.Toybox.WatchUi;
+        %tmp.12 = getv %tmp.11 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.7, %tmp.12);
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 12 8 ]
+        %tmp.13 = true;
+        ret %tmp.13;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_10_33_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 15; ]
+    function onTap(clickEvent) as Boolean {
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_15_42_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 16 8 ]
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_15_42_start" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_15_42_stop" ]
+        %xy.1 = local;
+        %tmp.1 = lgetv %clickEvent;
+        %tmp.2 = getv function %tmp.1 :getCoordinates;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %xy.1 %tmp.3;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 17 8 ]
+        %tmp.5 = getv ? :game;
+        %tmp.6 = getv function %tmp.5 :get;
+        %tmp.7 = "state";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        putv self :state %tmp.8;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 18 8 ]
+        %tmp.10 = getv ? :game;
+        %tmp.11 = getv function %tmp.10 :get;
+        %tmp.12 = "held";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :held %tmp.13;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 19 8 ]
+        %tmp.15 = getv ? :game;
+        %tmp.16 = getv function %tmp.15 :get;
+        %tmp.17 = "good";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        putv self :good %tmp.18;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 20 8 ]
+        %tmp.20 = getv ? :game;
+        %tmp.21 = getv function %tmp.20 :get;
+        %tmp.22 = "rscore";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        putv self :rscore %tmp.23;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 21 8 ]
+        %tmp.25 = getv ? :game;
+        %tmp.26 = getv function %tmp.25 :get;
+        %tmp.27 = "tscore";
+        %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
+        putv self :tscore %tmp.28;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 23 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_23_8_if_stmt:
+        %tmp.29 = self;
+        %tmp.30 = getv function %tmp.29 :inbox;
+        %tmp.32 = getv ? :newXY;
+        %tmp.34 = getv ? :newWH;
+        %tmp.36 = lgetv %xy.1;
+        %tmp.37 = invoke %tmp.29 %tmp.30(%tmp.32, %tmp.34, %tmp.36);
+        bf %tmp.37 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_23_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_23_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_23_35_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 24 12 ]
+        %tmp.38 = self;
+        %tmp.39 = getv function %tmp.38 :newgame;
+        invoke %tmp.38 %tmp.39();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 25 12 ]
+        %tmp.40 = getm $.Toybox.WatchUi;
+        %tmp.41 = getv function %tmp.40 :requestUpdate;
+        invoke %tmp.40 %tmp.41();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 26 12 ]
+        %tmp.42 = true;
+        ret %tmp.42;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_23_35_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_23_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_23_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 28 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_28_8_if_stmt:
+        %tmp.44 = getv ? :state;
+        %tmp.45 = 1;
+        %tmp.46 = eq %tmp.44 %tmp.45;
+        bf %tmp.46 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_28_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_28_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_28_24_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 29 12 ]
+        for @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_test @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_incr @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_init:
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_begin" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_end" ]
+        %i.2 = local;
+        %tmp.47 = 0;
+        lputv %i.2 %tmp.47;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_test:
+        %tmp.49 = lgetv %i.2;
+        %tmp.50 = 6;
+        %tmp.51 = lt %tmp.49 %tmp.50;
+        bf %tmp.51 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_34_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 30 16 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_30_16_if_stmt:
+        %tmp.53 = getv ? :held;
+        %tmp.55 = lgetv %i.2;
+        %tmp.56 = agetv %tmp.53 %tmp.55;
+        %tmp.57 = 1;
+        %tmp.58 = eq %tmp.56 %tmp.57;
+        bf %tmp.58 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_30_16_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_30_16_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_30_34_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 30 36 ]
+        %tmp.59 = newa 2;
+        %tmp.61 = getv ? :dieXY;
+        %tmp.63 = lgetv %i.2;
+        %tmp.64 = agetv %tmp.61 %tmp.63;
+        %tmp.65 = 0;
+        %tmp.66 = agetv %tmp.64 %tmp.65;
+        %tmp.67 = dup %tmp.59;
+        %tmp.68 = aputv %tmp.67 0 %tmp.66;
+        %tmp.70 = getv ? :dieXY;
+        %tmp.72 = lgetv %i.2;
+        %tmp.73 = agetv %tmp.70 %tmp.72;
+        %tmp.74 = 1;
+        %tmp.75 = agetv %tmp.73 %tmp.74;
+        %tmp.77 = getv ? :ho;
+        %tmp.78 = add %tmp.75 %tmp.77;
+        %tmp.79 = getv function %tmp.78 :toNumber;
+        %tmp.80 = invoke %tmp.78 %tmp.79();
+        %tmp.81 = dup %tmp.68;
+        %tmp.82 = aputv %tmp.81 1 %tmp.80;
+        putv self :tmp %tmp.82;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_30_34_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_30_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_30_16_if_false:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_31_21_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 31 23 ]
+        %tmp.83 = newa 2;
+        %tmp.85 = getv ? :dieXY;
+        %tmp.87 = lgetv %i.2;
+        %tmp.88 = agetv %tmp.85 %tmp.87;
+        %tmp.89 = 0;
+        %tmp.90 = agetv %tmp.88 %tmp.89;
+        %tmp.91 = dup %tmp.83;
+        %tmp.92 = aputv %tmp.91 0 %tmp.90;
+        %tmp.94 = getv ? :dieXY;
+        %tmp.96 = lgetv %i.2;
+        %tmp.97 = agetv %tmp.94 %tmp.96;
+        %tmp.98 = 1;
+        %tmp.99 = agetv %tmp.97 %tmp.98;
+        %tmp.100 = dup %tmp.92;
+        %tmp.101 = aputv %tmp.100 1 %tmp.99;
+        putv self :tmp %tmp.101;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_31_21_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_30_16_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 32 16 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_16_if_stmt:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_20_begin:
+        %tmp.102 = self;
+        %tmp.103 = getv function %tmp.102 :inbox;
+        %tmp.105 = getv ? :tmp;
+        %tmp.107 = getv ? :dieWH;
+        %tmp.109 = lgetv %xy.1;
+        %tmp.110 = invoke %tmp.102 %tmp.103(%tmp.105, %tmp.107, %tmp.109);
+        %tmp.111 = dup %tmp.110;
+        bf %tmp.111 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_44_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_44_true:
+        %tmp.113 = getv ? :good;
+        %tmp.115 = lgetv %i.2;
+        %tmp.116 = agetv %tmp.113 %tmp.115;
+        %tmp.117 = and %tmp.110 %tmp.116;
+        push %tmp.117;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_44_end:
+        %tmp.118 = phi [%tmp.111 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_20_begin] [%tmp.117 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_44_true] [%tmp.118 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_44_end];
+        bf %tmp.118 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_16_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_53_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 33 20 ]
+        %tmp.119 = self;
+        %tmp.120 = getv function %tmp.119 :flipheld;
+        %tmp.122 = lgetv %i.2;
+        invoke %tmp.119 %tmp.120(%tmp.122);
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 34 20 ]
+        %tmp.123 = self;
+        %tmp.124 = getv function %tmp.123 :calcscore;
+        invoke %tmp.123 %tmp.124();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 35 20 ]
+        %tmp.125 = self;
+        %tmp.126 = getv function %tmp.125 :savegame;
+        invoke %tmp.125 %tmp.126();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 36 20 ]
+        %tmp.127 = getm $.Toybox.WatchUi;
+        %tmp.128 = getv function %tmp.127 :requestUpdate;
+        invoke %tmp.127 %tmp.128();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 37 20 ]
+        %tmp.129 = true;
+        ret %tmp.129;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_53_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_32_16_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_34_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_incr:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 29 ]
+        %tmp.132 = lgetv %i.2;
+        %tmp.133 = add %tmp.132 1;
+        lputv %i.2 %tmp.133;
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_test;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_29_12_for_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_28_24_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_28_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_28_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 41 8 ]
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_15_42_start" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_15_42_stop" ]
+        %anyheld.3 = local;
+        %tmp.134 = false;
+        lputv %anyheld.3 %tmp.134;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 42 8 ]
+        for @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_test @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_incr @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_init:
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_begin" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_end" ]
+        %i.4 = local;
+        %tmp.135 = 0;
+        lputv %i.4 %tmp.135;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_test:
+        %tmp.137 = lgetv %i.4;
+        %tmp.138 = 6;
+        %tmp.139 = lt %tmp.137 %tmp.138;
+        bf %tmp.139 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_30_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 43 12 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_43_12_if_stmt:
+        %tmp.141 = getv ? :held;
+        %tmp.143 = lgetv %i.4;
+        %tmp.144 = agetv %tmp.141 %tmp.143;
+        %tmp.145 = 1;
+        %tmp.146 = eq %tmp.144 %tmp.145;
+        bf %tmp.146 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_43_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_43_12_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_43_30_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 43 32 ]
+        %tmp.147 = true;
+        lputv %anyheld.3 %tmp.147;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 43 48 ]
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_43_30_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_43_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_43_12_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_30_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_incr:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 42 ]
+        %tmp.150 = lgetv %i.4;
+        %tmp.151 = add %tmp.150 1;
+        lputv %i.4 %tmp.151;
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_test;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_42_8_for_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 45 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_8_if_stmt:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_12_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_13_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_13_begin:
+        %tmp.153 = getv ? :state;
+        %tmp.154 = 0;
+        %tmp.155 = eq %tmp.153 %tmp.154;
+        %tmp.156 = dup %tmp.155;
+        bt %tmp.156 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_27_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_27_false:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_28_begin:
+        %tmp.158 = getv ? :state;
+        %tmp.159 = 1;
+        %tmp.160 = eq %tmp.158 %tmp.159;
+        %tmp.161 = dup %tmp.160;
+        bf %tmp.161 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_43_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_43_true:
+        %tmp.163 = lgetv %anyheld.3;
+        %tmp.164 = and %tmp.160 %tmp.163;
+        push %tmp.164;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_43_end:
+        %tmp.165 = phi [%tmp.161 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_28_begin] [%tmp.164 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_43_true] [%tmp.165 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_43_end];
+        %tmp.166 = or %tmp.155 %tmp.165;
+        push %tmp.166;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_27_end:
+        %tmp.167 = phi [%tmp.156 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_13_begin] [%tmp.166 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_27_false] [%tmp.167 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_27_end];
+        %tmp.168 = dup %tmp.167;
+        bt %tmp.168 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_55_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_55_false:
+        %tmp.170 = getv ? :state;
+        %tmp.171 = 2;
+        %tmp.172 = eq %tmp.170 %tmp.171;
+        %tmp.173 = or %tmp.167 %tmp.172;
+        push %tmp.173;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_55_end:
+        %tmp.174 = phi [%tmp.168 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_13_begin] [%tmp.173 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_55_false] [%tmp.174 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_55_end];
+        %tmp.175 = dup %tmp.174;
+        bf %tmp.175 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_71_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_71_true:
+        %tmp.176 = self;
+        %tmp.177 = getv function %tmp.176 :inbox;
+        %tmp.179 = getv ? :rollXY;
+        %tmp.181 = getv ? :rollWH;
+        %tmp.183 = lgetv %xy.1;
+        %tmp.184 = invoke %tmp.176 %tmp.177(%tmp.179, %tmp.181, %tmp.183);
+        %tmp.185 = and %tmp.174 %tmp.184;
+        push %tmp.185;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_71_end:
+        %tmp.186 = phi [%tmp.175 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_12_begin] [%tmp.185 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_71_true] [%tmp.186 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_71_end];
+        bf %tmp.186 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_96_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 46 12 ]
+        %tmp.187 = self;
+        %tmp.188 = getv function %tmp.187 :rolldice;
+        invoke %tmp.187 %tmp.188();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 47 12 ]
+        %tmp.189 = getm $.Toybox.WatchUi;
+        %tmp.190 = getv function %tmp.189 :requestUpdate;
+        invoke %tmp.189 %tmp.190();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 48 12 ]
+        %tmp.191 = true;
+        ret %tmp.191;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_96_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_45_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 50 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_8_if_stmt:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_12_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_12_begin:
+        %tmp.193 = getv ? :state;
+        %tmp.194 = 1;
+        %tmp.195 = eq %tmp.193 %tmp.194;
+        %tmp.196 = dup %tmp.195;
+        bf %tmp.196 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_27_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_27_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_28_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_29_begin:
+        %tmp.198 = getv ? :round;
+        %tmp.199 = 1;
+        %tmp.200 = eq %tmp.198 %tmp.199;
+        %tmp.201 = dup %tmp.200;
+        bf %tmp.201 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_44_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_44_true:
+        %tmp.203 = getv ? :rscore;
+        %tmp.205 = getv ? :tscore;
+        %tmp.206 = add %tmp.203 %tmp.205;
+        %tmp.208 = getv ? :min1bank;
+        %tmp.209 = gte %tmp.206 %tmp.208;
+        %tmp.210 = and %tmp.200 %tmp.209;
+        push %tmp.210;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_44_end:
+        %tmp.211 = phi [%tmp.201 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_29_begin] [%tmp.210 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_44_true] [%tmp.211 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_44_end];
+        %tmp.212 = dup %tmp.211;
+        bt %tmp.212 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_74_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_74_false:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_75_begin:
+        %tmp.214 = getv ? :round;
+        %tmp.215 = 1;
+        %tmp.216 = gt %tmp.214 %tmp.215;
+        %tmp.217 = dup %tmp.216;
+        bf %tmp.217 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_89_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_89_true:
+        %tmp.219 = getv ? :rscore;
+        %tmp.221 = getv ? :tscore;
+        %tmp.222 = add %tmp.219 %tmp.221;
+        %tmp.224 = getv ? :minbank;
+        %tmp.225 = gte %tmp.222 %tmp.224;
+        %tmp.226 = and %tmp.216 %tmp.225;
+        push %tmp.226;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_89_end:
+        %tmp.227 = phi [%tmp.217 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_75_begin] [%tmp.226 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_89_true] [%tmp.227 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_89_end];
+        %tmp.228 = or %tmp.211 %tmp.227;
+        push %tmp.228;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_74_end:
+        %tmp.229 = phi [%tmp.212 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_28_begin] [%tmp.228 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_74_false] [%tmp.229 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_74_end];
+        %tmp.230 = and %tmp.195 %tmp.229;
+        push %tmp.230;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_27_end:
+        %tmp.231 = phi [%tmp.196 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_12_begin] [%tmp.230 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_27_true] [%tmp.231 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_27_end];
+        %tmp.232 = dup %tmp.231;
+        bf %tmp.232 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_120_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_120_true:
+        %tmp.233 = self;
+        %tmp.234 = getv function %tmp.233 :inbox;
+        %tmp.236 = getv ? :bankXY;
+        %tmp.238 = getv ? :bankWH;
+        %tmp.240 = lgetv %xy.1;
+        %tmp.241 = invoke %tmp.233 %tmp.234(%tmp.236, %tmp.238, %tmp.240);
+        %tmp.242 = and %tmp.231 %tmp.241;
+        push %tmp.242;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_120_end:
+        %tmp.243 = phi [%tmp.232 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_12_begin] [%tmp.242 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_120_true] [%tmp.243 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_120_end];
+        bf %tmp.243 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_145_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 51 12 ]
+        %tmp.244 = 0;
+        putv self :farkles %tmp.244;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 52 12 ]
+        %tmp.245 = getv self :rscore;
+        %tmp.247 = getv ? :tscore;
+        %tmp.248 = add %tmp.245 %tmp.247;
+        putv self :rscore dup %tmp.248;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 53 12 ]
+        %tmp.249 = getv self :score;
+        %tmp.251 = getv ? :rscore;
+        %tmp.252 = add %tmp.249 %tmp.251;
+        putv self :score dup %tmp.252;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 54 12 ]
+        %tmp.253 = 0;
+        putv self :tscore %tmp.253;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 55 12 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_55_12_if_stmt:
+        %tmp.255 = getv ? :round;
+        %tmp.256 = 10;
+        %tmp.257 = eq %tmp.255 %tmp.256;
+        bf %tmp.257 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_55_12_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_55_12_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_55_29_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 56 16 ]
+        %tmp.258 = 3;
+        putv self :state %tmp.258;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_55_29_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_55_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_55_12_if_false:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_57_19_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 58 16 ]
+        %tmp.259 = 2;
+        putv self :state %tmp.259;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_57_19_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_55_12_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 60 12 ]
+        %tmp.260 = self;
+        %tmp.261 = getv function %tmp.260 :savegame;
+        invoke %tmp.260 %tmp.261();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 61 12 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_12_if_stmt:
+        %tmp.263 = getv ? :state;
+        %tmp.264 = 3;
+        %tmp.265 = eq %tmp.263 %tmp.264;
+        bf %tmp.265 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_12_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_28_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 62 16 ]
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_28_start" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_28_stop" ]
+        %pos.5 = local;
+        %tmp.266 = self;
+        %tmp.267 = getv function %tmp.266 :savehistory;
+        %tmp.268 = invoke %tmp.266 %tmp.267();
+        lputv %pos.5 %tmp.268;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 63 16 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_63_16_if_stmt:
+        %tmp.270 = lgetv %pos.5;
+        %tmp.271 = -1;
+        %tmp.272 = ne %tmp.270 %tmp.271;
+        bf %tmp.272 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_63_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_63_16_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_63_31_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 64 20 ]
+        %tmp.273 = self;
+        %tmp.274 = getv function %tmp.273 :showhighscores;
+        %tmp.276 = lgetv %pos.5;
+        invoke %tmp.273 %tmp.274(%tmp.276);
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_63_31_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_63_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_63_16_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_28_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_61_12_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 67 12 ]
+        %tmp.277 = getm $.Toybox.WatchUi;
+        %tmp.278 = getv function %tmp.277 :requestUpdate;
+        invoke %tmp.277 %tmp.278();
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 68 12 ]
+        %tmp.279 = true;
+        ret %tmp.279;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_145_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_50_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 70 8 ]
+        %tmp.280 = false;
+        ret %tmp.280;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_15_42_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 74; ]
+    function flipheld(d) {
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_74_25_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 75 8 ]
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_74_25_start" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_74_25_stop" ]
+        %counts.1 = local;
+        %tmp.1 = newa 7;
+        %tmp.2 = 0;
+        %tmp.3 = dup %tmp.1;
+        %tmp.4 = aputv %tmp.3 0 %tmp.2;
+        %tmp.5 = 0;
+        %tmp.6 = dup %tmp.4;
+        %tmp.7 = aputv %tmp.6 1 %tmp.5;
+        %tmp.8 = 0;
+        %tmp.9 = dup %tmp.7;
+        %tmp.10 = aputv %tmp.9 2 %tmp.8;
+        %tmp.11 = 0;
+        %tmp.12 = dup %tmp.10;
+        %tmp.13 = aputv %tmp.12 3 %tmp.11;
+        %tmp.14 = 0;
+        %tmp.15 = dup %tmp.13;
+        %tmp.16 = aputv %tmp.15 4 %tmp.14;
+        %tmp.17 = 0;
+        %tmp.18 = dup %tmp.16;
+        %tmp.19 = aputv %tmp.18 5 %tmp.17;
+        %tmp.20 = 0;
+        %tmp.21 = dup %tmp.19;
+        %tmp.22 = aputv %tmp.21 6 %tmp.20;
+        lputv %counts.1 %tmp.22;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 76 8 ]
+        for @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_test @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_incr @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_init:
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_begin" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_end" ]
+        %i.2 = local;
+        %tmp.23 = 0;
+        lputv %i.2 %tmp.23;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_test:
+        %tmp.25 = lgetv %i.2;
+        %tmp.26 = 6;
+        %tmp.27 = lt %tmp.25 %tmp.26;
+        bf %tmp.27 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_30_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 77 12 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_77_12_if_stmt:
+        %tmp.29 = getv ? :held;
+        %tmp.31 = lgetv %i.2;
+        %tmp.32 = agetv %tmp.29 %tmp.31;
+        %tmp.33 = 2;
+        %tmp.34 = ne %tmp.32 %tmp.33;
+        bf %tmp.34 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_77_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_77_12_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_77_30_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 78 16 ]
+        %tmp.35 = lgetv %counts.1;
+        %tmp.38 = lgetv %counts.1;
+        %tmp.40 = getv ? :dice;
+        %tmp.42 = lgetv %i.2;
+        %tmp.43 = agetv %tmp.40 %tmp.42;
+        %tmp.44 = agetv %tmp.38 %tmp.43;
+        %tmp.45 = add %tmp.44 1;
+        %tmp.47 = getv ? :dice;
+        %tmp.49 = lgetv %i.2;
+        %tmp.50 = agetv %tmp.47 %tmp.49;
+        aputv %tmp.35 %tmp.50 dup %tmp.45;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_77_30_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_77_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_77_12_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_30_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_incr:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 76 ]
+        %tmp.53 = lgetv %i.2;
+        %tmp.54 = add %tmp.53 1;
+        lputv %i.2 %tmp.54;
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_test;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_76_8_for_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 81 8 ]
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_74_25_start" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_74_25_stop" ]
+        %freq.3 = local;
+        %tmp.55 = newa 7;
+        %tmp.56 = 0;
+        %tmp.57 = dup %tmp.55;
+        %tmp.58 = aputv %tmp.57 0 %tmp.56;
+        %tmp.59 = 0;
+        %tmp.60 = dup %tmp.58;
+        %tmp.61 = aputv %tmp.60 1 %tmp.59;
+        %tmp.62 = 0;
+        %tmp.63 = dup %tmp.61;
+        %tmp.64 = aputv %tmp.63 2 %tmp.62;
+        %tmp.65 = 0;
+        %tmp.66 = dup %tmp.64;
+        %tmp.67 = aputv %tmp.66 3 %tmp.65;
+        %tmp.68 = 0;
+        %tmp.69 = dup %tmp.67;
+        %tmp.70 = aputv %tmp.69 4 %tmp.68;
+        %tmp.71 = 0;
+        %tmp.72 = dup %tmp.70;
+        %tmp.73 = aputv %tmp.72 5 %tmp.71;
+        %tmp.74 = 0;
+        %tmp.75 = dup %tmp.73;
+        %tmp.76 = aputv %tmp.75 6 %tmp.74;
+        lputv %freq.3 %tmp.76;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 82 8 ]
+        for @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_test @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_incr @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_init:
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_begin" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_end" ]
+        %i.4 = local;
+        %tmp.77 = 1;
+        lputv %i.4 %tmp.77;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_test:
+        %tmp.79 = lgetv %i.4;
+        %tmp.80 = 7;
+        %tmp.81 = lt %tmp.79 %tmp.80;
+        bf %tmp.81 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_30_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 83 12 ]
+        %tmp.82 = lgetv %freq.3;
+        %tmp.85 = lgetv %freq.3;
+        %tmp.87 = lgetv %counts.1;
+        %tmp.89 = lgetv %i.4;
+        %tmp.90 = agetv %tmp.87 %tmp.89;
+        %tmp.91 = agetv %tmp.85 %tmp.90;
+        %tmp.92 = add %tmp.91 1;
+        %tmp.94 = lgetv %counts.1;
+        %tmp.96 = lgetv %i.4;
+        %tmp.97 = agetv %tmp.94 %tmp.96;
+        aputv %tmp.82 %tmp.97 dup %tmp.92;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_30_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_incr:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 82 ]
+        %tmp.100 = lgetv %i.4;
+        %tmp.101 = add %tmp.100 1;
+        lputv %i.4 %tmp.101;
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_test;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_82_8_for_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 85 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_8_if_stmt:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_12_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_12_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_12_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_12_begin:
+        %tmp.103 = lgetv %freq.3;
+        %tmp.104 = 1;
+        %tmp.105 = agetv %tmp.103 %tmp.104;
+        %tmp.106 = 6;
+        %tmp.107 = eq %tmp.105 %tmp.106;
+        %tmp.108 = dup %tmp.107;
+        bt %tmp.108 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_28_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_28_false:
+        %tmp.110 = lgetv %freq.3;
+        %tmp.111 = 2;
+        %tmp.112 = agetv %tmp.110 %tmp.111;
+        %tmp.113 = 3;
+        %tmp.114 = eq %tmp.112 %tmp.113;
+        %tmp.115 = or %tmp.107 %tmp.114;
+        push %tmp.115;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_28_end:
+        %tmp.116 = phi [%tmp.108 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_12_begin] [%tmp.115 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_28_false] [%tmp.116 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_28_end];
+        %tmp.117 = dup %tmp.116;
+        bt %tmp.117 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_44_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_44_false:
+        %tmp.119 = lgetv %freq.3;
+        %tmp.120 = 3;
+        %tmp.121 = agetv %tmp.119 %tmp.120;
+        %tmp.122 = 2;
+        %tmp.123 = eq %tmp.121 %tmp.122;
+        %tmp.124 = or %tmp.116 %tmp.123;
+        push %tmp.124;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_44_end:
+        %tmp.125 = phi [%tmp.117 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_12_begin] [%tmp.124 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_44_false] [%tmp.125 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_44_end];
+        %tmp.126 = dup %tmp.125;
+        bt %tmp.126 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_60_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_60_false:
+        %tmp.128 = lgetv %freq.3;
+        %tmp.129 = 6;
+        %tmp.130 = agetv %tmp.128 %tmp.129;
+        %tmp.131 = 1;
+        %tmp.132 = eq %tmp.130 %tmp.131;
+        %tmp.133 = or %tmp.125 %tmp.132;
+        push %tmp.133;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_60_end:
+        %tmp.134 = phi [%tmp.126 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_12_begin] [%tmp.133 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_60_false] [%tmp.134 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_60_end];
+        %tmp.135 = dup %tmp.134;
+        bt %tmp.135 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_76_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_76_false:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_77_begin:
+        %tmp.137 = lgetv %freq.3;
+        %tmp.138 = 4;
+        %tmp.139 = agetv %tmp.137 %tmp.138;
+        %tmp.140 = 1;
+        %tmp.141 = eq %tmp.139 %tmp.140;
+        %tmp.142 = dup %tmp.141;
+        bf %tmp.142 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_94_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_94_true:
+        %tmp.144 = lgetv %freq.3;
+        %tmp.145 = 2;
+        %tmp.146 = agetv %tmp.144 %tmp.145;
+        %tmp.147 = 1;
+        %tmp.148 = eq %tmp.146 %tmp.147;
+        %tmp.149 = and %tmp.141 %tmp.148;
+        push %tmp.149;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_94_end:
+        %tmp.150 = phi [%tmp.142 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_77_begin] [%tmp.149 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_94_true] [%tmp.150 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_94_end];
+        %tmp.151 = or %tmp.134 %tmp.150;
+        push %tmp.151;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_76_end:
+        %tmp.152 = phi [%tmp.135 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_12_begin] [%tmp.151 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_76_false] [%tmp.152 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_76_end];
+        bf %tmp.152 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_8_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_109_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 86 12 ]
+        %tmp.153 = 1;
+        %tmp.155 = getv ? :held;
+        %tmp.157 = lgetv %d;
+        %tmp.158 = agetv %tmp.155 %tmp.157;
+        %tmp.159 = sub %tmp.153 %tmp.158;
+        putv self :tmp %tmp.159;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 87 12 ]
+        %tmp.160 = newa 6;
+        %tmp.162 = getv ? :tmp;
+        %tmp.163 = dup %tmp.160;
+        %tmp.164 = aputv %tmp.163 0 %tmp.162;
+        %tmp.166 = getv ? :tmp;
+        %tmp.167 = dup %tmp.164;
+        %tmp.168 = aputv %tmp.167 1 %tmp.166;
+        %tmp.170 = getv ? :tmp;
+        %tmp.171 = dup %tmp.168;
+        %tmp.172 = aputv %tmp.171 2 %tmp.170;
+        %tmp.174 = getv ? :tmp;
+        %tmp.175 = dup %tmp.172;
+        %tmp.176 = aputv %tmp.175 3 %tmp.174;
+        %tmp.178 = getv ? :tmp;
+        %tmp.179 = dup %tmp.176;
+        %tmp.180 = aputv %tmp.179 4 %tmp.178;
+        %tmp.182 = getv ? :tmp;
+        %tmp.183 = dup %tmp.180;
+        %tmp.184 = aputv %tmp.183 5 %tmp.182;
+        putv self :held %tmp.184;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_109_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_8_if_false:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 88 15 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_15_if_stmt:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_19_begin:
+        %tmp.186 = getv ? :dice;
+        %tmp.188 = lgetv %d;
+        %tmp.189 = agetv %tmp.186 %tmp.188;
+        %tmp.190 = 1;
+        %tmp.191 = eq %tmp.189 %tmp.190;
+        %tmp.192 = dup %tmp.191;
+        bt %tmp.192 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_35_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_35_false:
+        %tmp.194 = getv ? :dice;
+        %tmp.196 = lgetv %d;
+        %tmp.197 = agetv %tmp.194 %tmp.196;
+        %tmp.198 = 5;
+        %tmp.199 = eq %tmp.197 %tmp.198;
+        %tmp.200 = or %tmp.191 %tmp.199;
+        push %tmp.200;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_35_end:
+        %tmp.201 = phi [%tmp.192 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_19_begin] [%tmp.200 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_35_false] [%tmp.201 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_35_end];
+        bf %tmp.201 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_15_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_15_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_49_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 89 12 ]
+        %tmp.202 = getv self :held;
+        %tmp.203 = 1;
+        %tmp.205 = getv ? :held;
+        %tmp.207 = lgetv %d;
+        %tmp.208 = agetv %tmp.205 %tmp.207;
+        %tmp.209 = sub %tmp.203 %tmp.208;
+        %tmp.211 = lgetv %d;
+        aputv %tmp.202 %tmp.211 %tmp.209;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_49_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_15_if_false:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_90_15_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 91 12 ]
+        for @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_test @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_incr @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_init:
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_begin" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_end" ]
+        %i.5 = local;
+        %tmp.212 = 0;
+        lputv %i.5 %tmp.212;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_test:
+        %tmp.214 = lgetv %i.5;
+        %tmp.215 = 6;
+        %tmp.216 = lt %tmp.214 %tmp.215;
+        bf %tmp.216 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_34_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 92 16 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_16_if_stmt:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_20_begin:
+        %tmp.218 = getv ? :dice;
+        %tmp.220 = lgetv %i.5;
+        %tmp.221 = agetv %tmp.218 %tmp.220;
+        %tmp.223 = getv ? :dice;
+        %tmp.225 = lgetv %d;
+        %tmp.226 = agetv %tmp.223 %tmp.225;
+        %tmp.227 = eq %tmp.221 %tmp.226;
+        %tmp.228 = dup %tmp.227;
+        bf %tmp.228 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_43_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_43_true:
+        %tmp.230 = getv ? :held;
+        %tmp.232 = lgetv %i.5;
+        %tmp.233 = agetv %tmp.230 %tmp.232;
+        %tmp.234 = 2;
+        %tmp.235 = ne %tmp.233 %tmp.234;
+        %tmp.236 = and %tmp.227 %tmp.235;
+        push %tmp.236;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_43_end:
+        %tmp.237 = phi [%tmp.228 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_20_begin] [%tmp.236 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_43_true] [%tmp.237 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_43_end];
+        bf %tmp.237 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_16_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_57_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 93 20 ]
+        %tmp.238 = getv self :held;
+        %tmp.239 = 1;
+        %tmp.241 = getv ? :held;
+        %tmp.243 = lgetv %i.5;
+        %tmp.244 = agetv %tmp.241 %tmp.243;
+        %tmp.245 = sub %tmp.239 %tmp.244;
+        %tmp.247 = lgetv %i.5;
+        aputv %tmp.238 %tmp.247 %tmp.245;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_57_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_92_16_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_34_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_incr:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 91 ]
+        %tmp.250 = lgetv %i.5;
+        %tmp.251 = add %tmp.250 1;
+        lputv %i.5 %tmp.251;
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_test;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_91_12_for_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_90_15_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_88_15_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_85_8_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_74_25_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 100; ]
+    function calcscore() {
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_100_25_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 101 8 ]
+        %tmp.1 = 0;
+        putv self :tscore %tmp.1;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 102 8 ]
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_100_25_start" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_100_25_stop" ]
+        %counts.1 = local;
+        %tmp.2 = newa 7;
+        %tmp.3 = 0;
+        %tmp.4 = dup %tmp.2;
+        %tmp.5 = aputv %tmp.4 0 %tmp.3;
+        %tmp.6 = 0;
+        %tmp.7 = dup %tmp.5;
+        %tmp.8 = aputv %tmp.7 1 %tmp.6;
+        %tmp.9 = 0;
+        %tmp.10 = dup %tmp.8;
+        %tmp.11 = aputv %tmp.10 2 %tmp.9;
+        %tmp.12 = 0;
+        %tmp.13 = dup %tmp.11;
+        %tmp.14 = aputv %tmp.13 3 %tmp.12;
+        %tmp.15 = 0;
+        %tmp.16 = dup %tmp.14;
+        %tmp.17 = aputv %tmp.16 4 %tmp.15;
+        %tmp.18 = 0;
+        %tmp.19 = dup %tmp.17;
+        %tmp.20 = aputv %tmp.19 5 %tmp.18;
+        %tmp.21 = 0;
+        %tmp.22 = dup %tmp.20;
+        %tmp.23 = aputv %tmp.22 6 %tmp.21;
+        lputv %counts.1 %tmp.23;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 103 8 ]
+        for @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_test @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_incr @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_init:
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_begin" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_end" ]
+        %i.2 = local;
+        %tmp.24 = 0;
+        lputv %i.2 %tmp.24;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_test:
+        %tmp.26 = lgetv %i.2;
+        %tmp.27 = 6;
+        %tmp.28 = lt %tmp.26 %tmp.27;
+        bf %tmp.28 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_30_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 104 12 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_104_12_if_stmt:
+        %tmp.30 = getv ? :held;
+        %tmp.32 = lgetv %i.2;
+        %tmp.33 = agetv %tmp.30 %tmp.32;
+        %tmp.34 = 1;
+        %tmp.35 = eq %tmp.33 %tmp.34;
+        bf %tmp.35 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_104_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_104_12_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_104_30_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 105 16 ]
+        %tmp.36 = lgetv %counts.1;
+        %tmp.39 = lgetv %counts.1;
+        %tmp.41 = getv ? :dice;
+        %tmp.43 = lgetv %i.2;
+        %tmp.44 = agetv %tmp.41 %tmp.43;
+        %tmp.45 = agetv %tmp.39 %tmp.44;
+        %tmp.46 = add %tmp.45 1;
+        %tmp.48 = getv ? :dice;
+        %tmp.50 = lgetv %i.2;
+        %tmp.51 = agetv %tmp.48 %tmp.50;
+        aputv %tmp.36 %tmp.51 dup %tmp.46;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_104_30_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_104_12_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_104_12_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_30_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_incr:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 103 ]
+        %tmp.54 = lgetv %i.2;
+        %tmp.55 = add %tmp.54 1;
+        lputv %i.2 %tmp.55;
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_test;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_103_8_for_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 108 8 ]
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_100_25_start" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_100_25_stop" ]
+        %freq.3 = local;
+        %tmp.56 = newa 7;
+        %tmp.57 = 0;
+        %tmp.58 = dup %tmp.56;
+        %tmp.59 = aputv %tmp.58 0 %tmp.57;
+        %tmp.60 = 0;
+        %tmp.61 = dup %tmp.59;
+        %tmp.62 = aputv %tmp.61 1 %tmp.60;
+        %tmp.63 = 0;
+        %tmp.64 = dup %tmp.62;
+        %tmp.65 = aputv %tmp.64 2 %tmp.63;
+        %tmp.66 = 0;
+        %tmp.67 = dup %tmp.65;
+        %tmp.68 = aputv %tmp.67 3 %tmp.66;
+        %tmp.69 = 0;
+        %tmp.70 = dup %tmp.68;
+        %tmp.71 = aputv %tmp.70 4 %tmp.69;
+        %tmp.72 = 0;
+        %tmp.73 = dup %tmp.71;
+        %tmp.74 = aputv %tmp.73 5 %tmp.72;
+        %tmp.75 = 0;
+        %tmp.76 = dup %tmp.74;
+        %tmp.77 = aputv %tmp.76 6 %tmp.75;
+        lputv %freq.3 %tmp.77;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 109 8 ]
+        for @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_test @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_incr @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_init:
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_begin" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_end" ]
+        %i.4 = local;
+        %tmp.78 = 1;
+        lputv %i.4 %tmp.78;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_test:
+        %tmp.80 = lgetv %i.4;
+        %tmp.81 = 7;
+        %tmp.82 = lt %tmp.80 %tmp.81;
+        bf %tmp.82 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_30_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 110 12 ]
+        %tmp.83 = lgetv %freq.3;
+        %tmp.86 = lgetv %freq.3;
+        %tmp.88 = lgetv %counts.1;
+        %tmp.90 = lgetv %i.4;
+        %tmp.91 = agetv %tmp.88 %tmp.90;
+        %tmp.92 = agetv %tmp.86 %tmp.91;
+        %tmp.93 = add %tmp.92 1;
+        %tmp.95 = lgetv %counts.1;
+        %tmp.97 = lgetv %i.4;
+        %tmp.98 = agetv %tmp.95 %tmp.97;
+        aputv %tmp.83 %tmp.98 dup %tmp.93;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_30_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_incr:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 109 ]
+        %tmp.101 = lgetv %i.4;
+        %tmp.102 = add %tmp.101 1;
+        lputv %i.4 %tmp.102;
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_test;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_109_8_for_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 112 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_112_8_if_stmt:
+        %tmp.104 = lgetv %freq.3;
+        %tmp.105 = 1;
+        %tmp.106 = agetv %tmp.104 %tmp.105;
+        %tmp.107 = 6;
+        %tmp.108 = eq %tmp.106 %tmp.107;
+        bf %tmp.108 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_112_8_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_112_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_112_26_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 114 12 ]
+        %tmp.109 = 1500;
+        putv self :tscore %tmp.109;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 115 12 ]
+        ret ?;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_112_26_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_112_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_112_8_if_false:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 116 15 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_116_15_if_stmt:
+        %tmp.111 = lgetv %freq.3;
+        %tmp.112 = 2;
+        %tmp.113 = agetv %tmp.111 %tmp.112;
+        %tmp.114 = 3;
+        %tmp.115 = eq %tmp.113 %tmp.114;
+        bf %tmp.115 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_116_15_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_116_15_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_116_33_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 118 12 ]
+        %tmp.116 = 1500;
+        putv self :tscore %tmp.116;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 119 12 ]
+        ret ?;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_116_33_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_116_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_116_15_if_false:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 120 15 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_120_15_if_stmt:
+        %tmp.118 = lgetv %freq.3;
+        %tmp.119 = 3;
+        %tmp.120 = agetv %tmp.118 %tmp.119;
+        %tmp.121 = 1;
+        %tmp.122 = eq %tmp.120 %tmp.121;
+        bf %tmp.122 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_120_15_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_120_15_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_120_33_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 122 12 ]
+        for @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_test @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_incr @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_init:
+        [ "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_begin" "C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_end" ]
+        %i.5 = local;
+        %tmp.123 = 1;
+        lputv %i.5 %tmp.123;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_test:
+        %tmp.125 = lgetv %i.5;
+        %tmp.126 = 7;
+        %tmp.127 = lt %tmp.125 %tmp.126;
+        bf %tmp.127 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_begin:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_34_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 123 16 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_123_16_if_stmt:
+        %tmp.129 = lgetv %counts.1;
+        %tmp.131 = lgetv %i.5;
+        %tmp.132 = agetv %tmp.129 %tmp.131;
+        %tmp.133 = 3;
+        %tmp.134 = eq %tmp.132 %tmp.133;
+        bf %tmp.134 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_123_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_123_16_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_123_36_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 124 20 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_124_20_if_stmt:
+        %tmp.136 = lgetv %i.5;
+        %tmp.137 = 1;
+        %tmp.138 = eq %tmp.136 %tmp.137;
+        bf %tmp.138 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_124_20_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_124_20_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_124_32_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 124 34 ]
+        %tmp.140 = getv ? :onesval;
+        putv self :tscore %tmp.140;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_124_32_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_124_20_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_124_20_if_false:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_125_25_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 125 27 ]
+        %tmp.142 = lgetv %i.5;
+        %tmp.143 = 100;
+        %tmp.144 = mul %tmp.142 %tmp.143;
+        putv self :tscore %tmp.144;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_125_25_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_124_20_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_123_36_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_123_16_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_123_16_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_34_stop:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_incr:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 122 ]
+        %tmp.147 = lgetv %i.5;
+        %tmp.148 = add %tmp.147 1;
+        lputv %i.5 %tmp.148;
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_test;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_122_12_for_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_120_33_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_120_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_120_15_if_false:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 128 15 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_128_15_if_stmt:
+        %tmp.150 = lgetv %freq.3;
+        %tmp.151 = 3;
+        %tmp.152 = agetv %tmp.150 %tmp.151;
+        %tmp.153 = 2;
+        %tmp.154 = eq %tmp.152 %tmp.153;
+        bf %tmp.154 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_128_15_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_128_15_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_128_33_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 130 12 ]
+        %tmp.155 = 2500;
+        putv self :tscore %tmp.155;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 131 12 ]
+        ret ?;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_128_33_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_128_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_128_15_if_false:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 132 15 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_15_if_stmt:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_19_begin:
+        %tmp.157 = lgetv %freq.3;
+        %tmp.158 = 4;
+        %tmp.159 = agetv %tmp.157 %tmp.158;
+        %tmp.160 = 1;
+        %tmp.161 = eq %tmp.159 %tmp.160;
+        %tmp.162 = dup %tmp.161;
+        bf %tmp.162 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_36_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_36_true:
+        %tmp.164 = lgetv %freq.3;
+        %tmp.165 = 2;
+        %tmp.166 = agetv %tmp.164 %tmp.165;
+        %tmp.167 = 1;
+        %tmp.168 = eq %tmp.166 %tmp.167;
+        %tmp.169 = and %tmp.161 %tmp.168;
+        push %tmp.169;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_36_end:
+        %tmp.170 = phi [%tmp.162 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_19_begin] [%tmp.169 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_36_true] [%tmp.170 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_36_end];
+        bf %tmp.170 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_15_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_15_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_50_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 134 12 ]
+        %tmp.171 = 1500;
+        putv self :tscore %tmp.171;
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 135 12 ]
+        ret ?;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_50_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_15_if_false:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 136 15 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_136_15_if_stmt:
+        %tmp.173 = lgetv %freq.3;
+        %tmp.174 = 4;
+        %tmp.175 = agetv %tmp.173 %tmp.174;
+        %tmp.176 = 1;
+        %tmp.177 = eq %tmp.175 %tmp.176;
+        bf %tmp.177 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_136_15_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_136_15_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_136_33_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 138 12 ]
+        %tmp.178 = 1000;
+        putv self :tscore %tmp.178;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_136_33_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_136_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_136_15_if_false:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 139 15 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_139_15_if_stmt:
+        %tmp.180 = lgetv %freq.3;
+        %tmp.181 = 5;
+        %tmp.182 = agetv %tmp.180 %tmp.181;
+        %tmp.183 = 1;
+        %tmp.184 = eq %tmp.182 %tmp.183;
+        bf %tmp.184 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_139_15_if_false;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_139_15_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_139_33_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 141 12 ]
+        %tmp.185 = 2000;
+        putv self :tscore %tmp.185;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_139_33_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_139_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_139_15_if_false:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 142 15 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_142_15_if_stmt:
+        %tmp.187 = lgetv %freq.3;
+        %tmp.188 = 6;
+        %tmp.189 = agetv %tmp.187 %tmp.188;
+        %tmp.190 = 1;
+        %tmp.191 = eq %tmp.189 %tmp.190;
+        bf %tmp.191 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_142_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_142_15_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_142_33_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 144 12 ]
+        %tmp.192 = 3000;
+        putv self :tscore %tmp.192;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_142_33_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_142_15_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_142_15_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_139_15_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_136_15_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_132_15_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_128_15_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_120_15_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_116_15_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_112_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 147 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_147_8_if_stmt:
+        %tmp.194 = lgetv %counts.1;
+        %tmp.195 = 1;
+        %tmp.196 = agetv %tmp.194 %tmp.195;
+        %tmp.197 = 3;
+        %tmp.198 = lt %tmp.196 %tmp.197;
+        bf %tmp.198 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_147_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_147_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_147_27_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 148 12 ]
+        %tmp.200 = getv ? :tscore;
+        %tmp.202 = lgetv %counts.1;
+        %tmp.203 = 1;
+        %tmp.204 = agetv %tmp.202 %tmp.203;
+        %tmp.205 = 100;
+        %tmp.206 = mul %tmp.204 %tmp.205;
+        %tmp.207 = add %tmp.200 %tmp.206;
+        putv self :tscore %tmp.207;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_147_27_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_147_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_147_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 151 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_151_8_if_stmt:
+        %tmp.209 = lgetv %counts.1;
+        %tmp.210 = 5;
+        %tmp.211 = agetv %tmp.209 %tmp.210;
+        %tmp.212 = 3;
+        %tmp.213 = lt %tmp.211 %tmp.212;
+        bf %tmp.213 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_151_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_151_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_151_27_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 152 12 ]
+        %tmp.215 = getv ? :tscore;
+        %tmp.217 = lgetv %counts.1;
+        %tmp.218 = 5;
+        %tmp.219 = agetv %tmp.217 %tmp.218;
+        %tmp.220 = 50;
+        %tmp.221 = mul %tmp.219 %tmp.220;
+        %tmp.222 = add %tmp.215 %tmp.221;
+        putv self :tscore %tmp.222;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_151_27_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_151_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_151_8_if_end:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_100_25_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 160; ]
+    function inbox(boxxy, boxwh, point) as Boolean {
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_160_49_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 161 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_161_8_if_stmt:
+        %tmp.2 = lgetv %point;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        %tmp.6 = lgetv %boxxy;
+        %tmp.7 = 0;
+        %tmp.8 = agetv %tmp.6 %tmp.7;
+        %tmp.9 = lt %tmp.4 %tmp.8;
+        bf %tmp.9 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_161_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_161_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_161_31_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 161 32 ]
+        %tmp.10 = false;
+        ret %tmp.10;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_161_31_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_161_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_161_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 162 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_162_8_if_stmt:
+        %tmp.12 = lgetv %point;
+        %tmp.13 = 0;
+        %tmp.14 = agetv %tmp.12 %tmp.13;
+        %tmp.16 = lgetv %boxxy;
+        %tmp.17 = 0;
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        %tmp.20 = lgetv %boxwh;
+        %tmp.21 = 0;
+        %tmp.22 = agetv %tmp.20 %tmp.21;
+        %tmp.23 = add %tmp.18 %tmp.22;
+        %tmp.24 = gt %tmp.14 %tmp.23;
+        bf %tmp.24 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_162_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_162_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_162_40_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 162 41 ]
+        %tmp.25 = false;
+        ret %tmp.25;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_162_40_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_162_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_162_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 163 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_163_8_if_stmt:
+        %tmp.27 = lgetv %point;
+        %tmp.28 = 1;
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        %tmp.31 = lgetv %boxxy;
+        %tmp.32 = 1;
+        %tmp.33 = agetv %tmp.31 %tmp.32;
+        %tmp.34 = lt %tmp.29 %tmp.33;
+        bf %tmp.34 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_163_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_163_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_163_31_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 163 32 ]
+        %tmp.35 = false;
+        ret %tmp.35;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_163_31_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_163_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_163_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 164 8 ]
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_164_8_if_stmt:
+        %tmp.37 = lgetv %point;
+        %tmp.38 = 1;
+        %tmp.39 = agetv %tmp.37 %tmp.38;
+        %tmp.41 = lgetv %boxxy;
+        %tmp.42 = 1;
+        %tmp.43 = agetv %tmp.41 %tmp.42;
+        %tmp.45 = lgetv %boxwh;
+        %tmp.46 = 1;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = add %tmp.43 %tmp.47;
+        %tmp.49 = gt %tmp.39 %tmp.48;
+        bf %tmp.49 @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_164_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_164_8_if_true:
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_164_40_start:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 164 41 ]
+        %tmp.50 = false;
+        ret %tmp.50;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_164_40_stop:
+        goto @C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_164_8_if_end;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_164_8_if_end:
+[ "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc" 165 8 ]
+        %tmp.51 = true;
+        ret %tmp.51;
+C_Garmin_Projects_Farkle_source_FarkleDelegate_mc_160_49_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\Farkle\source\FarkleDelegate.mc"; @line = 1; ]
+<init> {
+}
